@@ -1,21 +1,19 @@
-import { NavLink } from 'react-router-dom';
-import cx from 'classnames';
-import styles from '../styles/Home.module.scss';
+import { NavLink } from "react-router-dom";
+import cx from "classnames";
+import styles from "../styles/Home.module.scss";
 
-import { ReactComponent as ScheduleIcon } from '../media/icons/schedule.svg';
-import { ReactComponent as LinkIcon } from '../media/icons/link.svg';
-import Carousel from '../components/Carousel';
-import HighlightCard from '../components/HighlightCard';
+import { ReactComponent as ScheduleIcon } from "../media/icons/schedule.svg";
+import { ReactComponent as LinkIcon } from "../media/icons/link.svg";
+import Carousel from "../components/Carousel";
+import HighlightCard from "../components/HighlightCard";
 
-import { events, highlights } from '../data/data';
-import { mainCoordinators, coordinators } from '../data/data'
-import Hero from '../components/Hero';
-import { motion } from 'framer-motion'
+import { events, highlights } from "../data/data";
+import { mainCoordinators, coordinators } from "../data/data";
+import Hero from "../components/Hero";
+import { motion } from "framer-motion";
+import ComingSoon from "../components/ComingSoon";
 
-const tags = [
-  'cosplay', 'fun', 'poetry', 'face painting', 'solo song', 'dance', 'essay', 'sketching',
-  'concert', 'flash mob', 'film making', 'joy', 'concert', 'dj', 'poetry slam'
-]
+const tags = ["star night", "dj night", "cultural talk"];
 
 const Home = ({ user }) => {
   return (
@@ -86,10 +84,10 @@ const Home = ({ user }) => {
 
         <main>
           <div className={styles.hlgallery}>
-            {highlights.map((id) => (
+            {/* {highlights.map((id) => (
               <HighlightCard user={user} key={id} {...events[id]} />
-            ))}
-            <div className={styles["btn-wrapper"]}>
+            ))} */}
+            {/* <div className={styles["btn-wrapper"]}>
               <NavLink to="/events" className="btn">
                 <span className="btn-subtitle">Events</span>
                 <span className="btn-text">
@@ -99,22 +97,24 @@ const Home = ({ user }) => {
                 </span>
                 <ScheduleIcon />
               </NavLink>
-            </div>
+            </div> */}
           </div>
+          <ComingSoon />
         </main>
       </section>
 
       <section className={cx(styles["home-section"], styles.coordinators)}>
         <header className={cx(styles.sectionHeader, "container")}>
           <h2 className={styles.heading}>
-            <span style={{ marginRight: "3ch" }}>Our</span>
-            <span className={styles._ar}>Team</span>
+            {/* <span style={{ marginRight: "3ch" }}>Our</span> */}
+            {/* <span className={styles._ar}>Team</span> */}
+            Our Team
           </h2>
           <div
             className={cx(styles.subtitle, "container")}
             id="coordinatorsList"
           >
-            <ul>
+            {/* <ul>
               {coordinators
                 .filter((val, i) => i <= 22)
                 .map((val) => (
@@ -127,15 +127,16 @@ const Home = ({ user }) => {
                 .map((val) => (
                   <li key={val.name}> {val.name}</li>
                 ))}
-            </ul>
+            </ul> */}
           </div>
         </header>
         <main>
-          <Carousel cardsList={mainCoordinators} />
+          {/* <Carousel cardsList={mainCoordinators} /> */}
+          <ComingSoon />
         </main>
       </section>
     </motion.div>
   );
-}
+};
 
 export default Home;

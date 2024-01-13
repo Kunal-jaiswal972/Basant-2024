@@ -22,10 +22,10 @@ const Footer = () => {
           <div>
             <div className={styles.LogoContainer}>
               <img src={logo} alt=""></img>
-              <div className={styles.title}>Atulyam'23</div>
+              <div className={styles.title}>Basant'24</div>
             </div>
           </div>
-          <div className={styles['sponsor-wrapper']}>
+          {/* <div className={styles['sponsor-wrapper']}>
             <div className={styles.sponsor}>
               <p style={{ textAlign: "center", fontSize: '1.2rem' }}>Our Sponsors</p>
               <div className={styles.sponsorImgs}>
@@ -33,36 +33,36 @@ const Footer = () => {
                 <img className={styles.sponsors} src={hotelObsidianBlue} alt=""></img>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className={styles.footerItems}>
           <div >
             <p>Contact us</p>
             <ul className={styles.SocialHandles}>
               <li className={cx(styles['handle-wrapper'])}>
-                <a className={styles.handle} target='_blank' rel='noreferrer' href="https://www.facebook.com/atulyamnitap">
+                <a className={styles.handle} target='_blank' rel='noreferrer' href="#">
                   <svg role="presentation" aria-label="Facebook" aria-hidden="true">
                     <use href="/media/icons/sprite.svg#social-facebook"></use>
                   </svg>
                 </a>
               </li>
               <li className={cx(styles['handle-wrapper'])}>
-                <a className={styles.handle} target='_blank' rel='noreferrer' href="https://www.instagram.com/nitap_atulyam/">
+                <a className={styles.handle} target='_blank' rel='noreferrer' href="#">
                   <svg role="presentation" aria-label="Twitter" aria-hidden="true">
                     <use href="/media/icons/sprite.svg#social-instagram"></use>
                   </svg>
                 </a>
               </li>
               <li className={cx(styles['handle-wrapper'])}>
-                <a className={styles.handle} target='_blank' rel='noreferrer' href="mailto:atulyam@nitap.ac.in">
+                <a className={styles.handle} target='_blank' rel='noreferrer' href="#">
                   <MailIcon />
                 </a>
               </li>
-              <li className={cx(styles['handle-wrapper'])}>
+              {/* <li className={cx(styles['handle-wrapper'])}>
                 <a className={styles.handle} target='_blank' rel='noreferrer' href="https://chat.whatsapp.com/HmcowbF1mbG7DRJxti4X4X">
                   <WAIcon />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -71,14 +71,14 @@ const Footer = () => {
             <br />
             <span>for your support</span>
           </div>
-          <div>
+          {/* <div>
             <img src={bye} style={{ height: "160px", width: "auto" }} alt=""></img>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className={styles.copyright}>
         <div className={styles.team}>
-          <span>
+          {/* <span>
             Handcrafted with 🖤 by
             <button className={cx(styles.devteamBtn, {
               [styles.on]: devTeam
@@ -86,8 +86,8 @@ const Footer = () => {
               Team4One
             </button>
           </span>
-          <span className={styles.sep}>~</span>
-          <span>&copy; 2023 Atulyam NIT Arunachal Pradesh</span>
+          <span className={styles.sep}>~</span> */}
+          <span>&copy; 2024 BASANT IIT(ISM) DHANBAD</span>
           {devTeam && (
             <ul className={styles.devteam}>
               <li><a className={cx('link', styles.ln)} target='_blank' rel='noreferrer' href="https://github.com/tripathics">@tripathics</a></li>

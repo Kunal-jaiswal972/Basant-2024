@@ -4,7 +4,7 @@ import cx from 'classnames';
 
 const links = [
   { link: '/', name: 'Home', onlyMobile: true },
-  { link: '/events', name: 'What\'s on' },
+  { link: '/events', name: 'Events' },
   { link: '/gallery', name: 'Gallery' },
   { link: '/register', name: 'Register', auth: true },
   { link: '/user', name: 'Profile', auth: true },
