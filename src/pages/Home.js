@@ -13,7 +13,7 @@ import Hero from "../components/Hero";
 import { motion } from "framer-motion";
 import ComingSoon from "../components/ComingSoon";
 
-const tags = ["star night", "dj night", "cultural talk"];
+const tags = ["star night", "dj night", "cultural talk, Rose day"];
 
 const Home = ({ user }) => {
   return (
@@ -45,8 +45,8 @@ const Home = ({ user }) => {
           className={cx(styles.introContent, styles.sectionHeader, "container")}
         >
           <h2 className={styles.heading}>
-            <span style={{ marginRight: "3ch" }}>Atulyam</span>
-            <span className={styles._ar}>2024</span>
+            <span style={{ marginRight: "3ch" }}>BASANT  & </span>
+            <span className={styles._ar}>III</span>
           </h2>
           <p className={styles.subtitle}>
             Basant is the official alumni reunion of IIT (ISM) Dhanbad. The
@@ -62,7 +62,7 @@ const Home = ({ user }) => {
               <span
                 className={cx("btn-subtitle", styles["intro-btn-subtitle"])}
               >
-                Atulyam'23 in reels
+                Basant'23 
               </span>
               <span className={cx("btn-text", styles["intro-btn-text"])}>
                 Gallery

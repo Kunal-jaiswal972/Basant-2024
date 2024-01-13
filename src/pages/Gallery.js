@@ -49,8 +49,8 @@ const Gallery = ({ user }) => {
           <span>Gallery</span>
         </h1>
         <div className={cx('subtitle', styles['header-subtitle'])}>
-          <h2>May.4-6</h2>
-          <div>Atulyam'23 in reels</div>
+          <h2>Feb.3-4</h2>
+          <div>Basant'23 </div>
         </div>
       </header>
       <main className={cx(styles['main-content'])}>
@@ -58,12 +58,13 @@ const Gallery = ({ user }) => {
 
         <div className={cx(styles['gallery'])}>
           <div className={cx(styles['h1'])}>
-            <h1> DAY 1
-            </h1>
-            <p>4<sup>th</sup> May</p>
+            <h6> DAY 1
+            </h6>
+            <p>3<sup>rd</sup> Feb</p>
           </div>
           <div className='Video'>
-            <Video embedId={"lG3S6VUt7AE"} />
+            <h6>comming soon</h6>
+            {/* <Video embedId={"lG3S6VUt7AE"} /> */}
           </div>
 
 
@@ -73,29 +74,18 @@ const Gallery = ({ user }) => {
         <hr />
         <div className={cx(styles['gallery'])}>
           <div className={cx(styles['h1'])}>
-            <h1> DAY 2
-            </h1>
-            <p>5<sup>th</sup> May</p>
+            <h6> DAY 2
+            </h6>
+            <p>4<sup>th</sup> Feb</p>
           </div>
           <div className='Video'>
-
-            <Video embedId={'xwGDkyz_LgI'} />
+          <h3>comming soon</h3>
+            {/* <Video embedId={'xwGDkyz_LgI'} /> */}
           </div>
         </div>
         <br />
         <hr />
 
-        <div className={cx(styles['gallery'])}>
-          <div className={cx(styles['h1'])}>
-            <h1> DAY 3
-            </h1>
-            <p>6<sup>th</sup> May</p>
-          </div>
-          <div className='Video'>
-            <Video embedId={"Mioso9Rv_N0"} />
-          </div>
-
-        </div>
 
 
 

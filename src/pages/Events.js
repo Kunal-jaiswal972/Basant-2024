@@ -67,20 +67,20 @@ const Events = ({ user }) => {
         </h1>
         <div className={cx(styles['header-btn-wrapper'])}>
           <NavLink to='/gallery' className={cx('btn', styles['intro-header-btn'])}>
-            <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>Atulyam'23 in reels</span>
+            <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>Basant'23 </span>
             <span className={cx('btn-text', styles['intro-btn-text'])}>Gallery</span>
             <LinkIcon />
           </NavLink>
         </div>
         <div className={cx('subtitle', styles['header-subtitle'])}>
-          <h2>May.4-6</h2>
-          <div>2023</div>
+          <h2>Feb.3-4</h2>
+          <div>2024</div>
         </div>
       </header>
       <main className={cx(styles['main-content'])}>
         <nav className={styles['schedule-nav']}>
           <ul className={styles.tabs}>
-            {['Thu.', 'Fri.', 'Sat.'].map((day, i) => (
+            {['Sat.', 'Sun'].map((day, i) => (
               <ScheduleNavBtn key={day}
                 currentDay={currentDay} day={i}
                 label={day} handleDayChange={setCurrentDay} />
@@ -89,10 +89,12 @@ const Events = ({ user }) => {
         </nav>
         <section ref={eventFigureWrapper} className={styles['event-list-wrapper']}>
           <ul className={styles['event-list']}>
-            {Object.keys(events).filter(id => events[id].day === currentDay)
+            {/* {Object.keys(events).filter(id => events[id].day === currentDay)
               .sort(timeCompare)
-              .map(id => <EventLI key={id} {...events[id]} handleHover={setActiveEventId} />)}
+              .map(id => <EventLI key={id} {...events[id]} handleHover={setActiveEventId} />)} */
+            }
           </ul>
+          <h4>comming soon</h4>
           <div className={styles['event-figures']}>
             <div className={styles.figures}>
               {Object.keys(events).filter(id => events[id].day === currentDay)
