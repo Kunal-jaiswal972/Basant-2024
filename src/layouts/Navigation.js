@@ -38,7 +38,7 @@ const Navigation = ({ user }) => {
     <header>
       <nav className={styles.nav} id="nav">
         <div className={styles.logo}>
-          <NavLink to={'/'}>ATULYAM</NavLink>
+          <NavLink to={'/'}>BASANT</NavLink>
         </div>
         <div className={cx(styles["router-links"], styles.desktop)}>
           {links.filter(link => !link.onlyMobile && (!link.auth || user.user)).map(link => <NavItem key={link.name} {...link} />)}
@@ -73,7 +73,7 @@ const Navigation = ({ user }) => {
           )}
         </ul>
         <div className={styles['nav-footer']}>
-          &copy;2023 Atulyam NITAP
+          &copy;2024 BASANT IIT(ISM) DHANBAD
         </div>
       </nav>
     </header>

@@ -25,38 +25,59 @@ const Home = ({ user }) => {
       exit={{ opacity: 0 }}
     >
       <Hero />
-      <section className={cx(styles["intro-section"], styles['home-section'])}>
-        <div className={styles['intro-bg']}>
+      <section className={cx(styles["intro-section"], styles["home-section"])}>
+        <div className={styles["intro-bg"]}>
           <div className={styles.rail}>
-            {tags.map((tag, i) => <span key={i}>{tag} </span>)}
+            {tags.map((tag, i) => (
+              <span key={i}>{tag} </span>
+            ))}
           </div>
           <div className={styles.rail}>
-            {tags.map((tag, i) => <span key={i}>{tag} </span>)}
+            {tags.map((tag, i) => (
+              <span key={i}>{tag} </span>
+            ))}
           </div>
           <div className={styles.rail}>
-            {tags.map((tag, i) => <span key={i}>{tag} </span>)}
+            {tags.map((tag, i) => (
+              <span key={i}>{tag} </span>
+            ))}
           </div>
         </div>
-        <header className={cx(styles.introContent, styles.sectionHeader, 'container')}>
+        <header
+          className={cx(styles.introContent, styles.sectionHeader, "container")}
+        >
           <h2 className={styles.heading}>
-            <span style={{ marginRight: '3ch' }}>Atulyam</span>
-            <span className={styles._ar}>2023</span>
+            <span style={{ marginRight: "3ch" }}>Atulyam</span>
+            <span className={styles._ar}>2024</span>
           </h2>
           <p className={styles.subtitle}>
-            Atulyam is the annual cultural festival of NIT Arunachal Pradesh. A splendid idea realised by a group of students in 2012 at NITAP giving birth to Atulyam as we know it today.<br />
-            After three years, we return with a more niwe and creative community than ever.
+            Basant is the official alumni reunion of IIT (ISM) Dhanbad. The
+            reunion is one of the most emotional times of the institute's
+            calendar as the batch that had passed out 50 years back returns to
+            the campus to reminisce about their old college memories.
           </p>
-          <div className={styles['header-btn-wrapper']}>
-            <NavLink to='/gallery' className={cx('btn', styles['intro-header-btn'])}>
-              <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>Atulyam'23 in reels</span>
-              <span className={cx('btn-text', styles['intro-btn-text'])}>Gallery</span>
+          <div className={styles["header-btn-wrapper"]}>
+            <NavLink
+              to="/gallery"
+              className={cx("btn", styles["intro-header-btn"])}
+            >
+              <span
+                className={cx("btn-subtitle", styles["intro-btn-subtitle"])}
+              >
+                Atulyam'23 in reels
+              </span>
+              <span className={cx("btn-text", styles["intro-btn-text"])}>
+                Gallery
+              </span>
               <LinkIcon />
             </NavLink>
           </div>
         </header>
       </section>
 
-      <section className={cx(styles['home-section'], 'container', styles.highlights)}>
+      <section
+        className={cx(styles["home-section"], "container", styles.highlights)}
+      >
         <header className={styles.sectionHeader}>
           <h2 className={styles.heading}>
             <span>Highlights</span>
@@ -65,11 +86,17 @@ const Home = ({ user }) => {
 
         <main>
           <div className={styles.hlgallery}>
-            {highlights.map(id => <HighlightCard user={user} key={id} {...events[id]} />)}
-            <div className={styles['btn-wrapper']}>
-              <NavLink to='/events' className='btn'>
-                <span className='btn-subtitle'>Events</span>
-                <span className='btn-text'>Full Event<br />Schedule</span>
+            {highlights.map((id) => (
+              <HighlightCard user={user} key={id} {...events[id]} />
+            ))}
+            <div className={styles["btn-wrapper"]}>
+              <NavLink to="/events" className="btn">
+                <span className="btn-subtitle">Events</span>
+                <span className="btn-text">
+                  Full Event
+                  <br />
+                  Schedule
+                </span>
                 <ScheduleIcon />
               </NavLink>
             </div>
@@ -77,18 +104,29 @@ const Home = ({ user }) => {
         </main>
       </section>
 
-      <section className={cx(styles['home-section'], styles.coordinators)}>
-        <header className={cx(styles.sectionHeader, 'container')}>
+      <section className={cx(styles["home-section"], styles.coordinators)}>
+        <header className={cx(styles.sectionHeader, "container")}>
           <h2 className={styles.heading}>
-            <span style={{ marginRight: '3ch' }}>Our</span>
+            <span style={{ marginRight: "3ch" }}>Our</span>
             <span className={styles._ar}>Team</span>
           </h2>
-          <div className={cx(styles.subtitle, 'container')} id='coordinatorsList'>
+          <div
+            className={cx(styles.subtitle, "container")}
+            id="coordinatorsList"
+          >
             <ul>
-              {coordinators.filter((val, i) => i <= 22).map(val => <li key={val.name}> {val.name}</li>)}
+              {coordinators
+                .filter((val, i) => i <= 22)
+                .map((val) => (
+                  <li key={val.name}> {val.name}</li>
+                ))}
             </ul>
             <ul>
-              {coordinators.filter((val, i) => i > 22).map(val => <li key={val.name}> {val.name}</li>)}
+              {coordinators
+                .filter((val, i) => i > 22)
+                .map((val) => (
+                  <li key={val.name}> {val.name}</li>
+                ))}
             </ul>
           </div>
         </header>
@@ -97,7 +135,7 @@ const Home = ({ user }) => {
         </main>
       </section>
     </motion.div>
-  )
+  );
 }
 
 export default Home;
