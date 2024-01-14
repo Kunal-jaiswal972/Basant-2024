@@ -24,7 +24,10 @@ const Home = ({ user }) => {
       exit={{ opacity: 0 }}
     >
       <Hero />
-      <section className={cx(styles["intro-section"], styles["home-section"])}>
+      <section
+        className={cx(styles["intro-section"], styles["home-section"])}
+        style={{ borderBottom: "1px solid black" }}
+      >
         <div className={styles["intro-bg"]}>
           <div className={styles.rail}>
             {tags.map((tag, i) => (
@@ -82,21 +85,21 @@ const Home = ({ user }) => {
         </header>
       </section>
 
-      <section
+      {/* <section
         className={cx(styles["home-section"], "container", styles.highlights)}
       >
         <header className={styles.sectionHeader}>
           <h2 className={styles.heading}>
             <span>Highlights</span>
           </h2>
-        </header>
+        </header> */}
 
-        <main>
-          <div className={styles.hlgallery}>
-            {/* {highlights.map((id) => (
+      {/* <main> */}
+      {/* <div className={styles.hlgallery}> */}
+      {/* {highlights.map((id) => (
               <HighlightCard user={user} key={id} {...events[id]} />
             ))} */}
-            {/* <div className={styles["btn-wrapper"]}>
+      {/* <div className={styles["btn-wrapper"]}>
               <NavLink to="/events" className="btn">
                 <span className="btn-subtitle">Events</span>
                 <span className="btn-text">
@@ -107,23 +110,23 @@ const Home = ({ user }) => {
                 <ScheduleIcon />
               </NavLink>
             </div> */}
-          </div>
-          <ComingSoon />
-        </main>
-      </section>
+      {/* </div> */}
+      {/* <ComingSoon /> */}
+      {/* </main> */}
+      {/* </section> */}
 
-      <section className={cx(styles["home-section"], styles.coordinators)}>
+      {/* <section className={cx(styles["home-section"], styles.coordinators)}>
         <header className={cx(styles.sectionHeader, "container")}>
-          <h2 className={styles.heading}>
-            {/* <span style={{ marginRight: "3ch" }}>Our</span> */}
-            {/* <span className={styles._ar}>Team</span> */}
-            Our Team
+          <h2 className={styles.heading}> */}
+      {/* <span style={{ marginRight: "3ch" }}>Our</span> */}
+      {/* <span className={styles._ar}>Team</span> */}
+      {/* Our Team
           </h2>
           <div
             className={cx(styles.subtitle, "container")}
             id="coordinatorsList"
-          >
-            {/* <ul>
+          > */}
+      {/* <ul>
               {coordinators
                 .filter((val, i) => i <= 22)
                 .map((val) => (
@@ -137,12 +140,24 @@ const Home = ({ user }) => {
                   <li key={val.name}> {val.name}</li>
                 ))}
             </ul> */}
-          </div>
+      {/* </div>
         </header>
-        <main>
-          {/* <Carousel cardsList={mainCoordinators} /> */}
-          <ComingSoon />
+        <main> */}
+      {/* <Carousel cardsList={mainCoordinators} /> */}
+      {/* <ComingSoon />
         </main>
+      </section> */}
+
+      <section
+        style={{
+          height: "200vh",
+          backgroundColor: "#00070D",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <ComingSoon theme="light" />
       </section>
     </motion.div>
   );

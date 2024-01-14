@@ -63,9 +63,10 @@
         // font-family: 'Limelight', sans-serif;
         display: flex;
         justify-content: flex-end;
-        width: 100%;
+        width: 50%;
         gap: .625rem;
         margin-bottom: 2.5rem;
+        margin-left:25%;
 
         .tabs {
             display: flex;
@@ -125,6 +126,14 @@
     .event-list-wrapper {
         position: relative;
         overflow: visible;
+
+        .comming_soon
+        {
+                text-align: center;
+                font-size: xx-large;
+                font-family: ui-monospace;
+        
+        }
 
         .event-list {
             list-style-type: none;

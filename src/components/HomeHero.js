@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./HomeHero.module.scss";
-import homeHero from "../media/india.webp";
+import logoClr from "../media/Logo_Colour.png";
 
 const HomeHero = () => {
   return (
@@ -16,10 +16,13 @@ const HomeHero = () => {
           as the batch that had passed out 50 years back returns to the campus
           to reminisce about their old college memories.
         </p>
+        <div className={styles.imageContainer2}>
+          <img src={logoClr} alt="Hero Image" />
+        </div>
         <button>Register</button>
       </div>
       <div className={styles.imageContainer}>
-        <img src={homeHero} alt="Hero Image" />
+        <img src={logoClr} alt="Hero Image" />
       </div>
     </div>
   );
