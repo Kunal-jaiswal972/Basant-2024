@@ -3,7 +3,14 @@ import React from "react";
 
 const ComingSoon = () => {
   return (
-    <div style={{textAlign: "center"}}>
+    <div
+      style={{
+        textAlign: "center",
+        color: "#fff",
+        fontSize: "8vw",
+        fontWeight: "700",
+      }}
+    >
       <h1>Coming Soon</h1>
     </div>
   );

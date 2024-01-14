@@ -9,52 +9,52 @@ import styles from './Hero.module.scss';
 const Hero = () => {
   const [isLive, setIsLive] = useState(false);
 
-  useEffect(() => {
-    const navEl = document.getElementById('nav');
-    const heroEl = document.getElementById('hero');
-    const heroLogoLetters = document.querySelectorAll('.shouldAnimate');
-    const coordinatorNames = document.getElementById('coordinatorsList');
+  // useEffect(() => {
+  //   const navEl = document.getElementById('nav');
+  //   const heroEl = document.getElementById('hero');
+  //   const heroLogoLetters = document.querySelectorAll('.shouldAnimate');
+  //   const coordinatorNames = document.getElementById('coordinatorsList');
 
-    const parallaxAnimate = () => {
-      // animate hero logo letters
-      const offsetTop = heroLogoLetters[0].offsetTop;
-      const speed = 0.04;
-      for (let i = 0; i < heroLogoLetters.length; i++) {
-        /** @type {HTMLElement} */
-        let el = heroLogoLetters[i];
-        const shift = Math.abs(3 - i) * speed * (offsetTop - el.getBoundingClientRect().top);
-        el.style.transform = 'translate3d(0, ' + shift.toFixed(3) + 'px, 0)';
-      }
+  //   const parallaxAnimate = () => {
+  //     // animate hero logo letters
+  //     const offsetTop = heroLogoLetters[0].offsetTop;
+  //     const speed = 0.04;
+  //     for (let i = 0; i < heroLogoLetters.length; i++) {
+  //       /** @type {HTMLElement} */
+  //       let el = heroLogoLetters[i];
+  //       const shift = Math.abs(3 - i) * speed * (offsetTop - el.getBoundingClientRect().top);
+  //       el.style.transform = 'translate3d(0, ' + shift.toFixed(3) + 'px, 0)';
+  //     }
 
-      // parallax animate coordinators
-      let coordNamesTopOffset = coordinatorNames.getBoundingClientRect().top;
-      coordinatorNames.style.transform = 'translate3d(0, ' + speed * coordNamesTopOffset.toFixed(3) + 'px, 0)';
-    }
+  //     // parallax animate coordinators
+  //     let coordNamesTopOffset = coordinatorNames.getBoundingClientRect().top;
+  //     coordinatorNames.style.transform = 'translate3d(0, ' + speed * coordNamesTopOffset.toFixed(3) + 'px, 0)';
+  //   }
 
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          navEl.style.position = 'absolute';
-          navEl.style.top = '100vh';
-        } else {
-          navEl.style.position = 'fixed';
-          navEl.style.top = '0';
-        }
-      })
-    })
+  //   const observer = new IntersectionObserver(entries => {
+  //     entries.forEach(entry => {
+  //       if (entry.isIntersecting) {
+  //         navEl.style.position = 'absolute';
+  //         navEl.style.top = '100vh';
+  //       } else {
+  //         navEl.style.position = 'fixed';
+  //         navEl.style.top = '0';
+  //       }
+  //     })
+  //   })
 
-    if (heroEl) observer.observe(heroEl);
-    if (heroLogoLetters.length > 0) {
-      window.addEventListener('scroll', parallaxAnimate);
-    }
+  //   if (heroEl) observer.observe(heroEl);
+  //   if (heroLogoLetters.length > 0) {
+  //     window.addEventListener('scroll', parallaxAnimate);
+  //   }
 
-    return () => {
-      window.removeEventListener('scroll', parallaxAnimate);
-      observer.disconnect()
-      navEl.style.position = 'fixed';
-      navEl.style.top = '0';
-    }
-  }, [])
+  //   return () => {
+  //     window.removeEventListener('scroll', parallaxAnimate);
+  //     observer.disconnect()
+  //     navEl.style.position = 'fixed';
+  //     navEl.style.top = '0';
+  //   }
+  // }, [])
 
   return (
     <div className={styles.hero} id="hero">
