@@ -51,9 +51,9 @@
     margin-bottom: 10px;
     font-size: 12px;
     line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    color: #28467b;
+    background-color: #f2f2f2;
+    border: 1px solid #bdd9e0;
     cursor: pointer;
 }
 
@@ -64,9 +64,9 @@
     margin-bottom: 0;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 1px solid #ddd;
-    background-color: #fff;
-    color: #2b2b2b;
+    border: 1px solid #bdd9e0;
+    background-color: #f2f2f2;
+    color: #28467b;
     cursor: pointer;
 }
 
@@ -121,7 +121,7 @@ option {
     display: block;
     padding: 0.2em;
     padding-bottom: 0.2em;
-    background: #FFF;
+    background: #f2f2f2;
     position: relative;
     margin: 0em;
     margin-right: 0.2em;
@@ -174,7 +174,7 @@ option {
     }
 
     &:after {
-        background: #ec2727;
+        background: #904437;
         transform: scale(0);
         transition: inherit;
         will-change: transform;
@@ -211,7 +211,7 @@ option {
     &:after {
         content: '';
         display: block;
-        border: solid 2px #ec2727;
+        border: solid 2px #904437;
         width: 100%;
         transform-origin: 0 0;
         transform: scaleX(0.2);
@@ -281,9 +281,9 @@ option {
     font-weight: 550;
     letter-spacing: 0.025rem;
     font-size: 0.75rem;
-    background-color: #ff414b;
-    background-color: #000;
-    color: white;
+    background-color: #904437;
+    background-color: #28467b;
+    color: #f2f2f2;
     overflow: hidden;
     border: 0;
     margin-bottom: 30px;
@@ -295,7 +295,7 @@ option {
 
 .submitButton::before {
     content: '';
-    background-color: #ff414b;
+    background-color: #904437;
     position: absolute;
     top: 0;
     left: 0;
@@ -314,14 +314,14 @@ option {
     display: flex;
     align-items: center;
     padding: 5px;
-    border: 1px solid gray;
-    background: #FFFF;
+    border: 1px solid #bdd9e0;
+    background: #f2f2f2;
     border-radius: 8px;
 }
 
 #output {
     padding: 20px;
-    background: #dadada;
+    background: #bdd9e0;
 }
 
 select {
@@ -336,7 +336,7 @@ select {
     margin: 1rem auto 2rem;
     border-radius: 4px;
     font-family: "Open Sans", sans-serif;
-    box-shadow: 0px 1px 3px -2px #000000e6;
+    box-shadow: 0px 1px 3px -2px #28467b;
 
     .icon {
         display: flex;

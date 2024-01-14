@@ -8,7 +8,7 @@
             .heading {
                 font-size: 1.6rem;
                 color: var(--gray-8);
-                border-bottom: solid 1px rgb(200, 200, 200);
+                border-bottom: solid 1px #bdd9e0;
             }
             margin-bottom: 2rem;
         }
@@ -21,7 +21,7 @@
             margin: 1rem auto 2rem;
             border-radius: 4px;
             font-family: "Open Sans", sans-serif;
-            box-shadow: 0px 1px 3px -2px #000000e6;
+            box-shadow: 0px 1px 3px -2px #28467b;
 
             .icon {
                 display: flex;
@@ -38,12 +38,12 @@
 
         .login-msg.success {
             color: #2e7d32;
-            background-color: rgb(237, 247, 237);
+            background-color: #f2f2f2;
         }
 
         .login-msg.error {
             color: #d32f2f;
-            background-color: rgb(253, 237, 237);
+            background-color: #f2f2f2;
         }
 
         .login-form {
@@ -71,7 +71,7 @@
                     background-color: transparent;
                     padding: 0.8rem 0;
                     border: none;
-                    border-bottom: solid 1px #01020433;
+                    border-bottom: solid 1px #28467b;
                     outline: none;
                     width: 100%;
                     font-size: 1rem;
@@ -79,7 +79,7 @@
                 }
 
                 input:focus {
-                    border-bottom: solid 1px #153964;
+                    border-bottom: solid 1px #bdd9e0;
                 }
             }
 

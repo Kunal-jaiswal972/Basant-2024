@@ -122,18 +122,18 @@
             line-height: 0.8;
         }
         .rail:nth-child(1) {
-            color: #dadada;
+            color: #f2f2f2;
             top: calc(-0.045 * var(--heading-font-size));
             animation: 140s infinite linear marquee;
         }
         .rail:nth-child(2) {
-            color: #efefef;
+            color: #bdd9e0;
             // color: #eaeaea;
             top: 42%;
             animation: 120s infinite linear marquee;    
         }
         .rail:nth-child(3) {
-            color: #efefef;
+            color: #bdd9e0;
             top: 50%;
             animation: 100s infinite linear marquee;
         }
@@ -290,7 +290,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(180deg, rgba(31, 31, 31, 0) 0%, rgba(31, 31, 31, 0.6) 100%);
+        background: linear-gradient(180deg, #28467b 0%, #28467b 100%);
         z-index: 20;
         transition: opacity .3s cubic-bezier(0.215, 0.61, 0.355, 1);
         opacity: 1;
@@ -316,7 +316,7 @@
         bottom: 0;
         padding: 1.25rem .9375rem;
         z-index: 22;
-        color: white;
+        color: #f2f2f2;
         font-family: "Roboto", sans-serif;
 
         .cardTitle {
@@ -360,7 +360,7 @@
     .sectionHeader> {
         .subtitle {
             will-change: transform;
-            color: #565656;
+            color: #904437;
             display: flex;
             flex-direction: column;
             font-family: "Antonio", sans-serif;
