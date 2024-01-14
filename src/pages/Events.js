@@ -1,11 +1,12 @@
 import { NavLink } from 'react-router-dom';
-import styles from '../styles/Events.module.scss';
+
 import cx from 'classnames';
 import { events } from '../data/data';
 import { useEffect, useRef, useState } from 'react';
 import { motion } from 'framer-motion';
 import SupportLink from '../components/SupportLink';
 import { ReactComponent as LinkIcon } from '../media/icons/link.svg';
+import styles from '../styles/Events.module.scss';
 
 const timeCompare = (a, b) => {
   if (events[a].time < events[b].time) {
@@ -62,16 +63,15 @@ const Events = ({ user }) => {
     >
       <header className={cx('page-header', styles['page-header'])}>
         <h1 className='heading'>
-          <span>Event</span>
-          <span>Schedule</span>
+          <span>Event Schedule</span>
         </h1>
-        <div className={cx(styles['header-btn-wrapper'])}>
+        {/* <div className={cx(styles['header-btn-wrapper'])}>
           <NavLink to='/gallery' className={cx('btn', styles['intro-header-btn'])}>
             <span className={cx('btn-subtitle', styles['intro-btn-subtitle'])}>Basant'23 </span>
             <span className={cx('btn-text', styles['intro-btn-text'])}>Gallery</span>
             <LinkIcon />
           </NavLink>
-        </div>
+        </div> */}
         <div className={cx('subtitle', styles['header-subtitle'])}>
           <h2>Feb.3-4</h2>
           <div>2024</div>
@@ -94,7 +94,7 @@ const Events = ({ user }) => {
               .map(id => <EventLI key={id} {...events[id]} handleHover={setActiveEventId} />)} */
             }
           </ul>
-          <h4>comming soon</h4>
+          <h4 className='comming_soon'>comming soon</h4>
           <div className={styles['event-figures']}>
             <div className={styles.figures}>
               {Object.keys(events).filter(id => events[id].day === currentDay)
