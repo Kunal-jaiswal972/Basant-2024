@@ -12,8 +12,9 @@ import { mainCoordinators, coordinators } from "../data/data";
 import Hero from "../components/Hero";
 import { motion } from "framer-motion";
 import ComingSoon from "../components/ComingSoon";
+import HomeHero from "../components/HomeHero";
 
-const tags = ["star night", "dj night", "cultural talk, Rose day"];
+const tags = ["star night", "dj night", "cultural talk", "Rose day"];
 
 const Home = ({ user }) => {
   return (
@@ -35,17 +36,24 @@ const Home = ({ user }) => {
               <span key={i}>{tag} </span>
             ))}
           </div>
-          <div className={styles.rail}>
+          {/* <div className={styles.rail}>
             {tags.map((tag, i) => (
               <span key={i}>{tag} </span>
             ))}
-          </div>
+          </div> */}
         </div>
         <header
           className={cx(styles.introContent, styles.sectionHeader, "container")}
+          style={{
+            marginInline: "0px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+          }}
         >
-          <h2 className={styles.heading}>
-            <span style={{ marginRight: "3ch" }}>BASANT  & </span>
+          {/* <h2 className={styles.heading}>
+            <span style={{ marginRight: "3ch" }}>BASANT & </span>
             <span className={styles._ar}>III</span>
           </h2>
           <p className={styles.subtitle}>
@@ -62,14 +70,15 @@ const Home = ({ user }) => {
               <span
                 className={cx("btn-subtitle", styles["intro-btn-subtitle"])}
               >
-                Basant'23 
+                Basant'23
               </span>
               <span className={cx("btn-text", styles["intro-btn-text"])}>
                 Gallery
               </span>
               <LinkIcon />
             </NavLink>
-          </div>
+          </div> */}
+          <HomeHero />
         </header>
       </section>
 
