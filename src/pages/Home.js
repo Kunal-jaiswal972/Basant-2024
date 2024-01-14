@@ -151,7 +151,7 @@ const Home = ({ user }) => {
       <section
         style={{
           height: "200vh",
-          backgroundColor: "#000",
+          backgroundColor: "#00070D",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",

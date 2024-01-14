@@ -7,11 +7,11 @@ const ComingSoon = () => {
       style={{
         textAlign: "center",
         color: "#fff",
-        fontSize: "8vw",
+        fontSize: "7.5vw",
         fontWeight: "700",
       }}
     >
-      <h1>Coming Soon</h1>
+      <h1>Coming Soon...</h1>
     </div>
   );
 };
