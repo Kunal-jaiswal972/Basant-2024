@@ -150,7 +150,7 @@ const Home = ({ user }) => {
 
       <section
         style={{
-          height: "200vh",
+          height: "120vh",
           backgroundColor: "#00070D",
           display: "flex",
           alignItems: "center",

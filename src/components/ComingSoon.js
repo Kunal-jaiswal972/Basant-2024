@@ -7,7 +7,7 @@ const ComingSoon = ({ theme, size }) => {
       style={{
         textAlign: "center",
         color: `${theme === "dark" ? "#000" : "#fff"}`,
-        fontSize: `${size === "small" ? "5vw" : "7.5vw"}`,
+        fontSize: `${size === "small" ? "2em" : "4vw"}`,
         fontWeight: "700",
         padding:"1rem"
       }}
