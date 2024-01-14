@@ -157,7 +157,7 @@ const Home = ({ user }) => {
           justifyContent: "center",
         }}
       >
-        <ComingSoon />
+        <ComingSoon theme="light" />
       </section>
     </motion.div>
   );
