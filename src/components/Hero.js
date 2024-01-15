@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import CountdownTimer from "./CountdownTimer";
 import { eventStartDate } from "../data/data";
-import { ReactComponent as ScrollDownIcon } from '../media/icons/down.svg';
-import HeroVideo from '../media/ism.mp4';
-import HeroImage from '../media/hero-image.png';
-import styles from './Hero.module.scss';
+import { ReactComponent as ScrollDownIcon } from "../media/icons/down.svg";
+import HeroVideo from "../media/ism2.mp4";
+import HeroImage from "../media/hero-image.png";
+import styles from "./Hero.module.scss";
 
 const Hero = () => {
   const [isLive, setIsLive] = useState(false);
@@ -58,37 +58,47 @@ const Hero = () => {
 
   return (
     <div className={styles.hero} id="hero">
-      <img className={styles['hero-bg']} src={HeroImage} alt="" />
+      {/* <img className={styles["hero-bg"]} src={HeroImage} alt="" /> */}
       <div className={styles.grain}></div>
-      <video className={styles['hero-bg']}  autoPlay={true} muted={true} loop={true}>
+      <video
+        className={styles["hero-bg"]}
+        autoPlay={true}
+        muted={true}
+        loop={true}
+      >
         <source src={HeroVideo} />
       </video>
       <div className={styles.content}>
         <h1 className={styles.logo}>
-          <span className='shouldAnimate'>B</span>
-          <span className='shouldAnimate'>a</span>
-          <span className='shouldAnimate'>s</span>
-          <span className='shouldAnimate'>a</span>
-          <span className='shouldAnimate'>n</span>
-          <span className='shouldAnimate'>t</span>
-          <span className='shouldAnimate'>&</span>
-          <span className='shouldAnimate'>I</span>
-          <span className='shouldAnimate'>I</span>
-          <span className='shouldAnimate'>I</span>
+          <span className="shouldAnimate">B</span>
+          <span className="shouldAnimate">a</span>
+          <span className="shouldAnimate">s</span>
+          <span className="shouldAnimate">a</span>
+          <span className="shouldAnimate">n</span>
+          <span className="shouldAnimate">t</span>
+          <span className="shouldAnimate">&</span>
+          <span className="shouldAnimate">I</span>
+          <span className="shouldAnimate">I</span>
+          <span className="shouldAnimate">I</span>
         </h1>
-        
+
         <div className={styles.timeline}>
-          {!isLive && (<>
-            <p>The countdown begins!</p>
-            <CountdownTimer countdownDate={eventStartDate} handleTimerComplete={setIsLive} />
-          </>)}
+          {!isLive && (
+            <>
+              <p>The countdown begins!</p>
+              <CountdownTimer
+                countdownDate={eventStartDate}
+                handleTimerComplete={setIsLive}
+              />
+            </>
+          )}
         </div>
       </div>
-      <div className={styles.scrollDown} aria-hidden='true'>
+      <div className={styles.scrollDown} aria-hidden="true">
         <ScrollDownIcon />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Hero;
