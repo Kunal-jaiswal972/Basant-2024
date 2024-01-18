@@ -7,16 +7,19 @@ import { ReactComponent as LinkIcon } from "../media/icons/link.svg";
 import Carousel from "../components/Carousel";
 import HighlightCard from "../components/HighlightCard";
 
-import { events, highlights } from "../data/data";
+import { BasantEvents, events, highlights } from "../data/data";
 import { mainCoordinators, coordinators } from "../data/data";
 import Hero from "../components/Hero";
 import { motion } from "framer-motion";
 import ComingSoon from "../components/ComingSoon";
 import HomeHero from "../components/HomeHero";
+import { useState } from "react";
 
-const tags = ["star night", "dj night", "cultural talk", "Rose day"];
+const tags = ["star night", "dj night", "cultural talk", "Rose day", "Poetry"];
 
 const Home = ({ user }) => {
+  const [comingSoon, setComingSoon] = useState(false);
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -26,7 +29,7 @@ const Home = ({ user }) => {
       <Hero />
       <section
         className={cx(styles["intro-section"], styles["home-section"])}
-        style={{ borderBottom: "1px solid black" }}
+        // style={{ borderBottom: "1px solid black" }}
       >
         <div className={styles["intro-bg"]}>
           <div className={styles.rail}>
@@ -85,36 +88,6 @@ const Home = ({ user }) => {
         </header>
       </section>
 
-      {/* <section
-        className={cx(styles["home-section"], "container", styles.highlights)}
-      >
-        <header className={styles.sectionHeader}>
-          <h2 className={styles.heading}>
-            <span>Highlights</span>
-          </h2>
-        </header> */}
-
-      {/* <main> */}
-      {/* <div className={styles.hlgallery}> */}
-      {/* {highlights.map((id) => (
-              <HighlightCard user={user} key={id} {...events[id]} />
-            ))} */}
-      {/* <div className={styles["btn-wrapper"]}>
-              <NavLink to="/events" className="btn">
-                <span className="btn-subtitle">Events</span>
-                <span className="btn-text">
-                  Full Event
-                  <br />
-                  Schedule
-                </span>
-                <ScheduleIcon />
-              </NavLink>
-            </div> */}
-      {/* </div> */}
-      {/* <ComingSoon /> */}
-      {/* </main> */}
-      {/* </section> */}
-
       {/* <section className={cx(styles["home-section"], styles.coordinators)}>
         <header className={cx(styles.sectionHeader, "container")}>
           <h2 className={styles.heading}> */}
@@ -148,17 +121,57 @@ const Home = ({ user }) => {
         </main>
       </section> */}
 
-      <section
-        style={{
-          height: "120vh",
-          backgroundColor: "#00070D",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
-        <ComingSoon theme="light" />
-      </section>
+      {comingSoon ? (
+        <section
+          style={{
+            height: "120vh",
+            backgroundColor: "#00070D",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <ComingSoon theme="light" />
+        </section>
+      ) : (
+        <>
+          <section
+            className={cx(
+              styles["home-section"],
+              "container",
+              styles.highlights
+            )}
+          >
+            <header className={styles.sectionHeader}>
+              <h2 className={styles.heading}>
+                <span>Highlights</span>
+              </h2>
+            </header>
+
+            <main>
+              <div className={styles.hlgallery}>
+                {/* {highlights.map((id) => (
+                  <HighlightCard user={user} key={id} {...events[id]} />
+                ))}
+                <div className={styles["btn-wrapper"]}>
+                  <NavLink to="/events" className="btn">
+                    <span className="btn-subtitle">Events</span>
+                    <span className="btn-text">
+                      Full Event
+                      <br />
+                      Schedule
+                    </span>
+                    <ScheduleIcon />
+                  </NavLink>
+                </div> */}
+                {[0, 1, 2, 3, 4, 5].map((_, idx) => (
+                  <HighlightCard key={idx} {...BasantEvents[idx]} />
+                ))}
+              </div>
+            </main>
+          </section>
+        </>
+      )}
     </motion.div>
   );
 };
