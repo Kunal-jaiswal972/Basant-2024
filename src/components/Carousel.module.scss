@@ -22,12 +22,13 @@
             .card {
                 display: block;
                 position: relative;
+                border-radius: 1rem; // Updated border-radius for pointed corners
+                overflow: hidden;
 
                 .card-visual {
                     display: block;
-                    border-top-right-radius: 3rem;
                     overflow: hidden;
-                    background-color: #28467b;
+                    background-color: #5e5e5e;
                     z-index: 0;
                     transform: translate3d(0, 0, 0);
                     img {
@@ -58,7 +59,7 @@
                     left: 0;
                     width: 100%;
                     height: 100%;
-                    background: linear-gradient(180deg, #28467b 0%, #904437 100%);
+                    background: linear-gradient(180deg, #5e5e5e 0%, #8e8e8e 100%);
                     z-index: 20;
                     transition: opacity .3s cubic-bezier(0.215, 0.61, 0.355, 1);
                     opacity: 0;
@@ -72,7 +73,9 @@
                         font-weight: 700;
                         line-height: 1.04;
                         margin-bottom: .625rem;
-                        color: var(--primary);
+                        color: #ffffff;
+                        opacity: 0; // Hidden by default
+                        transition: opacity 0.3s ease;
                     }
 
                     .card-footer {
@@ -97,6 +100,12 @@
                         .sep::after {
                             content: "/";
                         }
+                    }
+                }
+
+                &:hover {
+                    .card-content .card-heading {
+                        opacity: 1; // Make the name visible on hover
                     }
                 }
             }
@@ -125,7 +134,6 @@
     .c-cards-wrapper.-transit-right {
         transform: translate3d(calc(-1 * var(--card-width) / 2), 0, 0);
     }
-
 
     @media screen and (max-width: 800px) {
         --card-width: 60%;
@@ -156,7 +164,7 @@
         .dir {
             width: 2rem;
             height: 4rem;
-            color: #f2f2f2;
+            color: #2ecc71;
 
             >svg {
                 fill: currentColor;
@@ -176,7 +184,6 @@
         }
     }
 
-    // Mouse cursor
     .c-gallery-cursor {
         position: absolute;
         top: 0;
@@ -186,7 +193,7 @@
         z-index: 100;
         pointer-events: none;
         opacity: 0;
-        color: #bdd9e0;
+        color: #3498db;
         transition: opacity 0.15s;
 
         svg {
@@ -205,7 +212,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #28467b;
+        background-color: #2ecc71;
         border-radius: 50%;
         transform: translate(-50%, -50%);
     }

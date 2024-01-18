@@ -6,7 +6,7 @@ const links = [
   { link: '/', name: 'Home', onlyMobile: true },
   { link: '/events', name: 'Events' },
   { link: '/gallery', name: 'Gallery' },
-  { link: '/register', name: 'Register', auth: true },
+  { link: '/sponser', name: 'Sponser', auth: true },
   { link: '/user', name: 'Profile', auth: true },
 ]
 
@@ -43,11 +43,11 @@ const Navigation = ({ user }) => {
         <div className={cx(styles["router-links"], styles.desktop)}>
           {links.filter(link => !link.onlyMobile && (!link.auth || user.user)).map(link => <NavItem key={link.name} {...link} />)}
           {!user.user && (
-            <NavItem link={'/signup'} name={'Register'} />
+            <NavItem link={'/sponser'} name={'Sponsers'} />
           )}
-          {user.user && user.admin && (
+          {/* {user.user && user.admin && (
             <NavItem link={'/admin'} name={'Admin'} />
-          )}
+          )} */}
         </div>
         <button aria-label="Menu" className={styles['mobile-hamburger-btn']} type='button'
           onClick={(e) => { e.preventDefault(); toggleMobileNav(); }}>
@@ -65,12 +65,12 @@ const Navigation = ({ user }) => {
           )}
           {!user.user && (
             <li key={'noauth'}><NavItem handleClick={toggleMobileNav}
-              {...{ link: '/signup', name: 'Register' }} /></li>
+              {...{ link: '/sponser', name: 'Sponser' }} /></li>
           )}
-          {user.user && user.admin && (
+          {/* {user.user && user.admin && (
             <li key={'noauth'}><NavItem handleClick={toggleMobileNav}
               {...{ link: '/admin', name: 'Admin' }} /></li>
-          )}
+          )} */}
         </ul>
         <div className={styles['nav-footer']}>
           &copy;2024 BASANT IIT(ISM) DHANBAD

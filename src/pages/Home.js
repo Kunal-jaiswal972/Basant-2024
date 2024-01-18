@@ -115,38 +115,37 @@ const Home = ({ user }) => {
       {/* </main> */}
       {/* </section> */}
 
-      {/* <section className={cx(styles["home-section"], styles.coordinators)}>
+      <section className={cx(styles["home-section"], styles.coordinators)}>
         <header className={cx(styles.sectionHeader, "container")}>
-          <h2 className={styles.heading}> */}
-      {/* <span style={{ marginRight: "3ch" }}>Our</span> */}
-      {/* <span className={styles._ar}>Team</span> */}
-      {/* Our Team
+          <h2 className={styles.heading}>
+      {/* <span style={{ marginRight: "3ch" }}>Our</span>
+      <span className={styles._ar}>Team</span> */}
+      Our Team
           </h2>
-          <div
-            className={cx(styles.subtitle, "container")}
-            id="coordinatorsList"
-          > */}
-      {/* <ul>
-              {coordinators
-                .filter((val, i) => i <= 22)
-                .map((val) => (
-                  <li key={val.name}> {val.name}</li>
-                ))}
-            </ul>
-            <ul>
-              {coordinators
-                .filter((val, i) => i > 22)
-                .map((val) => (
-                  <li key={val.name}> {val.name}</li>
-                ))}
-            </ul> */}
-      {/* </div>
+          <div className={cx(styles.subtitle, "container")} id="coordinatorsList">
+                  {/* <ul>
+                    {coordinators
+                      .filter((val, i) => i <= 22)
+                      .map((val) => (
+                        <li key={val.name}> {val.name}</li>
+                      ))}
+                  </ul>
+                  <ul>
+                    {coordinators
+                      .filter((val, i) => i > 22)
+                      .map((val) => (
+                        <li key={val.name}> {val.name}</li>
+                      ))}
+                  </ul> */}
+      </div>
         </header>
-        <main> */}
-      {/* <Carousel cardsList={mainCoordinators} /> */}
-      {/* <ComingSoon />
+        <main>
+      <Carousel cardsList={mainCoordinators} />
+      <Carousel cardsList={mainCoordinators} />
+      <Carousel cardsList={mainCoordinators} />
+      {/* <ComingSoon /> */}
         </main>
-      </section> */}
+      </section>
 
       <section
         style={{
