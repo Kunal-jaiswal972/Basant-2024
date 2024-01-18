@@ -88,38 +88,67 @@ const Home = ({ user }) => {
         </header>
       </section>
 
-      {/* <section className={cx(styles["home-section"], styles.coordinators)}>
-        <header className={cx(styles.sectionHeader, "container")}>
-          <h2 className={styles.heading}> */}
-      {/* <span style={{ marginRight: "3ch" }}>Our</span> */}
-      {/* <span className={styles._ar}>Team</span> */}
-      {/* Our Team
+      {/* <section
+        className={cx(styles["home-section"], "container", styles.highlights)}
+      >
+        <header className={styles.sectionHeader}>
+          <h2 className={styles.heading}>
+            <span>Highlights</span>
           </h2>
-          <div
-            className={cx(styles.subtitle, "container")}
-            id="coordinatorsList"
-          > */}
-      {/* <ul>
-              {coordinators
-                .filter((val, i) => i <= 22)
-                .map((val) => (
-                  <li key={val.name}> {val.name}</li>
-                ))}
-            </ul>
-            <ul>
-              {coordinators
-                .filter((val, i) => i > 22)
-                .map((val) => (
-                  <li key={val.name}> {val.name}</li>
-                ))}
-            </ul> */}
-      {/* </div>
+        </header> */}
+
+      {/* <main> */}
+      {/* <div className={styles.hlgallery}> */}
+      {/* {highlights.map((id) => (
+              <HighlightCard user={user} key={id} {...events[id]} />
+            ))} */}
+      {/* <div className={styles["btn-wrapper"]}>
+              <NavLink to="/events" className="btn">
+                <span className="btn-subtitle">Events</span>
+                <span className="btn-text">
+                  Full Event
+                  <br />
+                  Schedule
+                </span>
+                <ScheduleIcon />
+              </NavLink>
+            </div> */}
+      {/* </div> */}
+      {/* <ComingSoon /> */}
+      {/* </main> */}
+      {/* </section> */}
+
+      <section className={cx(styles["home-section"], styles.coordinators)}>
+        <header className={cx(styles.sectionHeader, "container")}>
+          <h2 className={styles.heading}>
+      {/* <span style={{ marginRight: "3ch" }}>Our</span>
+      <span className={styles._ar}>Team</span> */}
+      Our Team
+          </h2>
+          <div className={cx(styles.subtitle, "container")} id="coordinatorsList">
+                  {/* <ul>
+                    {coordinators
+                      .filter((val, i) => i <= 22)
+                      .map((val) => (
+                        <li key={val.name}> {val.name}</li>
+                      ))}
+                  </ul>
+                  <ul>
+                    {coordinators
+                      .filter((val, i) => i > 22)
+                      .map((val) => (
+                        <li key={val.name}> {val.name}</li>
+                      ))}
+                  </ul> */}
+      </div>
         </header>
-        <main> */}
-      {/* <Carousel cardsList={mainCoordinators} /> */}
-      {/* <ComingSoon />
+        <main>
+      <Carousel cardsList={mainCoordinators} />
+      <Carousel cardsList={mainCoordinators} />
+      <Carousel cardsList={mainCoordinators} />
+      {/* <ComingSoon /> */}
         </main>
-      </section> */}
+      </section>
 
       {comingSoon ? (
         <section
