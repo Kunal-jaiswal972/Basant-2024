@@ -118,37 +118,7 @@ const Home = ({ user }) => {
       {/* </main> */}
       {/* </section> */}
 
-      <section className={cx(styles["home-section"], styles.coordinators)}>
-        <header className={cx(styles.sectionHeader, "container")}>
-          <h2 className={styles.heading}>
-      {/* <span style={{ marginRight: "3ch" }}>Our</span>
-      <span className={styles._ar}>Team</span> */}
-      Our Team
-          </h2>
-          <div className={cx(styles.subtitle, "container")} id="coordinatorsList">
-                  {/* <ul>
-                    {coordinators
-                      .filter((val, i) => i <= 22)
-                      .map((val) => (
-                        <li key={val.name}> {val.name}</li>
-                      ))}
-                  </ul>
-                  <ul>
-                    {coordinators
-                      .filter((val, i) => i > 22)
-                      .map((val) => (
-                        <li key={val.name}> {val.name}</li>
-                      ))}
-                  </ul> */}
-      </div>
-        </header>
-        <main>
-      <Carousel cardsList={mainCoordinators} />
-      <Carousel cardsList={mainCoordinators} />
-      <Carousel cardsList={mainCoordinators} />
-      {/* <ComingSoon /> */}
-        </main>
-      </section>
+
 
       {comingSoon ? (
         <section
@@ -201,6 +171,39 @@ const Home = ({ user }) => {
           </section>
         </>
       )}
+
+
+      <section className={cx(styles["home-section"], styles.coordinators)}>
+        <header className={cx(styles.sectionHeader, "container")}>
+          <h2 className={styles.heading}>
+      {/* <span style={{ marginRight: "3ch" }}>Our</span>
+      <span className={styles._ar}>Team</span> */}
+      Our Team
+          </h2>
+          <div className={cx(styles.subtitle, "container")} id="coordinatorsList">
+      </div>
+        </header>
+        <main>
+        <div className="position" style={{ marginBottom: '20px' }}>
+  <h2 style={{ color: '#3498db', fontSize: '3rem', fontWeight: 'bold', marginBottom: '10px', marginLeft:'15px' }}>PROFESSORS</h2>
+</div>
+<Carousel cardsList={mainCoordinators} />
+
+<div className="position" style={{ marginBottom: '20px' }}>
+  <h2 style={{ color: '#3498db', fontSize: '3rem', fontWeight: 'bold', marginBottom: '10px', marginLeft:'15px' }}>COORDINATORS</h2>
+</div>
+<Carousel cardsList={mainCoordinators} />
+
+<div className="position" style={{ marginBottom: '20px' }}>
+  <h2 style={{ color: '#3498db', fontSize: '3rem', fontWeight: 'bold', marginBottom: '10px', marginLeft:'15px' }}>ORGANIZSERS</h2>
+</div>
+<Carousel cardsList={mainCoordinators} />
+
+      {/* <ComingSoon /> */}
+        </main>
+      </section>
+
+     
     </motion.div>
   );
 };

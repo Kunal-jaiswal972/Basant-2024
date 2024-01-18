@@ -252,41 +252,49 @@ export const mainCoordinators = [
     name: "Daknya Bam",
     imgSrc: "/media/coordinators/daknya.jpg",
     roles: ["Designer", "UI/UX", "Frontend", "Coordinator"],
+    department : "Computer Science and Eng."
   },
   {
     name: "Pursottam Sah",
     imgSrc: "/media/coordinators/pursottam.jpg",
     roles: ["Developer", "Event Coordinator", "Backend"],
+    department : "Computer Science and Eng."
   },
   {
     name: "Mekruk Waii",
     imgSrc: "/media/coordinators/mekruk.jpg",
     roles: ["Designing coordinator", "Cultural Vice-Chairman, SANIT"],
+    department : "Computer Science and Eng."
   },
   {
     name: "Likha Tassam",
     imgSrc: "/media/coordinators/tassam.jpg",
     roles: ["Decoration Coordinator", "Designing Team"],
+    department : "Computer Science and Eng."
   },
   {
     name: "Gamjum Laye",
     imgSrc: "/media/coordinators/gamjum.jpg",
     roles: ["Coordinator", "Mr. and Ms. Atulyam"],
+    department : "Computer Science and Eng."
   },
   {
     name: "Joni Nomuk",
     imgSrc: "/media/coordinators/joni.jpg",
     roles: ["Chief coordinator Atulyam'23", "Cultural Secretary, SANIT"],
+    department : "Computer Science and Eng."
   },
   {
     name: "Rikto Padu",
     imgSrc: "/media/coordinators/rikto.jpg",
     roles: ["Sponsor Head", "IPR Chairman, SANIT"],
+    department : "Computer Science and Eng."
   },
   {
     name: "Nich Talo",
     imgSrc: "/media/coordinators/talo.jpg",
     roles: ["Main Events Coordinator", "Cultural Chairman, SANIT"],
+    department : "Computer Science and Eng."
   },
   {
     name: "Sangklee Sidisow",

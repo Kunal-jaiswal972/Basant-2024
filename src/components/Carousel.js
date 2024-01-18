@@ -4,7 +4,7 @@ import { ReactComponent as PointerIcon } from '../media/icons/right.svg';
 import { ReactComponent as NarrowArrowIcon } from '../media/icons/narrow-arrow.svg';
 import cx from 'classnames';
 
-const CarouselCard = ({ imgSrc, name, roles }) => {
+const CarouselCard = ({ imgSrc, name, roles, department }) => {
   return (
     <div className={styles['card-wrapper']}>
 
@@ -16,17 +16,23 @@ const CarouselCard = ({ imgSrc, name, roles }) => {
           <h3 className={styles['card-heading']}>
             {name}
           </h3>
+          <p className={styles['card-department']}>
+            Department: {department}
+          </p>
           <ul className={styles['card-footer']}>
-            {roles.map((role, i) => (<li key={i + role}>
-              <span className={styles.role}>{role}</span>
-              {i < roles.length-1 && <span className={styles.sep} />}
-            </li>))}
+            {roles.map((role, i) => (
+              <li key={i + role}>
+                <span className={styles.role}>{role}</span>
+                {i < roles.length - 1 && <span className={styles.sep} />}
+              </li>
+            ))}
           </ul>
         </main>
       </article>
     </div>
-  )
-}
+  );
+};
+
 
 const Carousel = ({ cardsList = [] }) => {
   const cursorRef = useRef(null);
