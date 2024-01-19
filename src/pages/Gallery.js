@@ -4,6 +4,9 @@ import "react-html5video/dist/styles.css";
 import { motion } from "framer-motion";
 import ComingSoon from "../components/ComingSoon";
 
+import FirstDay from "../components/FirstDay";
+import SecondDay from "../components/SecondDay";
+
 const Gallery = ({ user }) => {
   const Video = ({ embedId }) => {
     return (
@@ -59,7 +62,8 @@ const Gallery = ({ user }) => {
             </p>
           </div>
           <div className="Video">
-            <ComingSoon theme="dark" size="small" />
+            <FirstDay />
+            {/* <ComingSoon theme="dark" size="small" /> */}
             {/* <Video embedId={"lG3S6VUt7AE"} /> */}
           </div>
         </div>
@@ -73,7 +77,9 @@ const Gallery = ({ user }) => {
             </p>
           </div>
           <div className="Video">
-            <ComingSoon theme="dark" size="small" />
+            <SecondDay/>
+
+            {/* <ComingSoon theme="dark" size="small" /> */}
             {/* <Video embedId={'xwGDkyz_LgI'} /> */}
           </div>
         </div>

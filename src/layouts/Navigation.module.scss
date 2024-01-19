@@ -21,10 +21,11 @@
     .logo {
         flex-grow: 1;
         a {
-            font-family: 'Roboto', sans-serif;
+            // font-family: 'Roboto', sans-serif;
+            font-family: 'Sacramento', cursive;
             font-size: 1.25rem;
             font-weight: 500;
-            letter-spacing: 0.3ch;
+            letter-spacing: default;
             text-decoration: none;
         }
     }
