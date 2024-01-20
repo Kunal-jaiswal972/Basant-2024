@@ -14,6 +14,7 @@ import { motion } from "framer-motion";
 import ComingSoon from "../components/ComingSoon";
 import HomeHero from "../components/HomeHero";
 import { useState } from "react";
+import Message from "../components/Message";
 
 const tags = ["star night", "dj night", "cultural talk", "Rose day", "Poetry"];
 
@@ -88,37 +89,14 @@ const Home = ({ user }) => {
         </header>
       </section>
 
-      {/* <section
-        className={cx(styles["home-section"], "container", styles.highlights)}
-      >
-        <header className={styles.sectionHeader}>
+      <section className={cx(styles["home-section"])}>
+        <header className={cx(styles.sectionHeader, "container")}>
           <h2 className={styles.heading}>
-            <span>Highlights</span>
+            <span>Message</span>
           </h2>
-        </header> */}
-
-      {/* <main> */}
-      {/* <div className={styles.hlgallery}> */}
-      {/* {highlights.map((id) => (
-              <HighlightCard user={user} key={id} {...events[id]} />
-            ))} */}
-      {/* <div className={styles["btn-wrapper"]}>
-              <NavLink to="/events" className="btn">
-                <span className="btn-subtitle">Events</span>
-                <span className="btn-text">
-                  Full Event
-                  <br />
-                  Schedule
-                </span>
-                <ScheduleIcon />
-              </NavLink>
-            </div> */}
-      {/* </div> */}
-      {/* <ComingSoon /> */}
-      {/* </main> */}
-      {/* </section> */}
-
-
+        </header>
+        <Message/>
+      </section>
 
       {comingSoon ? (
         <section
@@ -172,38 +150,65 @@ const Home = ({ user }) => {
         </>
       )}
 
-
       <section className={cx(styles["home-section"], styles.coordinators)}>
         <header className={cx(styles.sectionHeader, "container")}>
           <h2 className={styles.heading}>
-      {/* <span style={{ marginRight: "3ch" }}>Our</span>
+            {/* <span style={{ marginRight: "3ch" }}>Our</span>
       <span className={styles._ar}>Team</span> */}
-      Our Team
+            Our Team
           </h2>
-          <div className={cx(styles.subtitle, "container")} id="coordinatorsList">
-      </div>
+          <div
+            className={cx(styles.subtitle, "container")}
+            id="coordinatorsList"
+          ></div>
         </header>
         <main>
-        <div className="position" style={{ marginBottom: '20px' }}>
-  <h2 style={{ color: '#3498db', fontSize: '3rem', fontWeight: 'bold', marginBottom: '10px', marginLeft:'15px' }}>PROFESSORS</h2>
-</div>
-<Carousel cardsList={mainCoordinators} />
+          <div className="position" style={{ marginBottom: "20px" }}>
+            <h2
+              style={{
+                color: "#3498db",
+                fontSize: "3rem",
+                fontWeight: "bold",
+                marginBottom: "10px",
+                marginLeft: "15px",
+              }}
+            >
+              PROFESSORS
+            </h2>
+          </div>
+          <Carousel cardsList={mainCoordinators} />
 
-<div className="position" style={{ marginBottom: '20px' }}>
-  <h2 style={{ color: '#3498db', fontSize: '3rem', fontWeight: 'bold', marginBottom: '10px', marginLeft:'15px' }}>COORDINATORS</h2>
-</div>
-<Carousel cardsList={mainCoordinators} />
+          <div className="position" style={{ marginBottom: "20px" }}>
+            <h2
+              style={{
+                color: "#3498db",
+                fontSize: "3rem",
+                fontWeight: "bold",
+                marginBottom: "10px",
+                marginLeft: "15px",
+              }}
+            >
+              COORDINATORS
+            </h2>
+          </div>
+          <Carousel cardsList={mainCoordinators} />
 
-<div className="position" style={{ marginBottom: '20px' }}>
-  <h2 style={{ color: '#3498db', fontSize: '3rem', fontWeight: 'bold', marginBottom: '10px', marginLeft:'15px' }}>ORGANIZSERS</h2>
-</div>
-<Carousel cardsList={mainCoordinators} />
-
-      {/* <ComingSoon /> */}
+          <div className="position" style={{ marginBottom: "20px" }}>
+            <h2
+              style={{
+                color: "#3498db",
+                fontSize: "3rem",
+                fontWeight: "bold",
+                marginBottom: "10px",
+                marginLeft: "15px",
+              }}
+            >
+              ORGANIZSERS
+            </h2>
+          </div>
+          <Carousel cardsList={mainCoordinators} />
         </main>
       </section>
-
-     
     </motion.div>
   );
 };

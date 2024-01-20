@@ -6,6 +6,7 @@ const links = [
   { link: '/', name: 'Home', onlyMobile: true },
   { link: '/events', name: 'Events' },
   { link: '/gallery', name: 'Gallery' },
+  { link: '/about-us', name: 'About Us' },
   { link: '/sponser', name: 'Sponser', auth: true },
   { link: '/user', name: 'Profile', auth: true },
 ]

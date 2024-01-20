@@ -12,6 +12,7 @@ import UserProfile from "./UserProfile";
 import Admin from "./Admin";
 
 import { AnimatePresence } from 'framer-motion';
+import AboutUs from "./AboutUs";
 
 function AnimatedRoutes({ authUser, updateAuthUserAttr, handleLogout, checkingStatus }) {
   const location = useLocation();
@@ -23,6 +24,7 @@ function AnimatedRoutes({ authUser, updateAuthUserAttr, handleLogout, checkingSt
         <Route path="/events" element={<Events user={authUser.user} />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/sponser" element={<Sponser />} />
+        <Route path="/about-us" element={<AboutUs />} />
         {/* <Route path="/register"
           element={<ProtectedComponent
             authUser={authUser}
