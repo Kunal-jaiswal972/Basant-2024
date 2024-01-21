@@ -95,7 +95,7 @@ const Home = ({ user }) => {
             <span>Message</span>
           </h2>
         </header>
-        <Message/>
+        <Message />
       </section>
 
       {comingSoon ? (
@@ -193,14 +193,6 @@ const Home = ({ user }) => {
           </div>
           <Carousel cardsList={mainCoordinators} />
 
-<<<<<<< HEAD
-<div className="position" style={{ marginBottom: '20px' }}>
-  <h2 style={{ color: '#3498db', fontSize: '3rem', fontWeight: 'bold', marginBottom: '10px', marginLeft:'15px' }}>ORGANIZSERS</h2>
-</div>
-<Carousel cardsList={organizsers} />
-
-      {/* <ComingSoon /> */}
-=======
           <div className="position" style={{ marginBottom: "20px" }}>
             <h2
               style={{
@@ -215,7 +207,6 @@ const Home = ({ user }) => {
             </h2>
           </div>
           <Carousel cardsList={mainCoordinators} />
->>>>>>> baac23ab2f0250dfcc2b8c53a2783722e22e3a73
         </main>
       </section>
     </motion.div>
