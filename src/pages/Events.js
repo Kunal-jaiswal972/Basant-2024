@@ -101,9 +101,9 @@ const Events = ({ user }) => {
           className={styles["event-list-wrapper"]}
         >
           <ul className={styles["event-list"]}>
-            {/* {Object.keys(events).filter(id => events[id].day === currentDay)
+            {Object.keys(events).filter(id => events[id].day === currentDay)
               .sort(timeCompare)
-              .map(id => <EventLI key={id} {...events[id]} handleHover={setActiveEventId} />)} */}
+              .map(id => <EventLI key={id} {...events[id]} handleHover={setActiveEventId} />)}
           </ul>
           <ComingSoon theme="dark" size="small"/>
           <div className={styles["event-figures"]}>
@@ -164,7 +164,7 @@ const EventLI = ({
         }}
       >
         <div className={styles.title}>
-          {type === "Contest" ? (
+          {/* {type === "Contest" ? (
             <p className={cx({ [styles.closed]: !isRegistrationOpen })}>
               {isRegistrationOpen
                 ? "Registrations open!"
@@ -172,7 +172,7 @@ const EventLI = ({
             </p>
           ) : (
             <p>{type} </p>
-          )}
+          )} */}
           <h4>{title}</h4>
         </div>
         <div className={styles.venue}>

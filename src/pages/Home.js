@@ -7,7 +7,7 @@ import { ReactComponent as LinkIcon } from "../media/icons/link.svg";
 import Carousel from "../components/Carousel";
 import HighlightCard from "../components/HighlightCard";
 
-import { BasantEvents, events, highlights } from "../data/data";
+import { BasantEvents, events, highlights, organizsers } from "../data/data";
 import { mainCoordinators, coordinators } from "../data/data";
 import Hero from "../components/Hero";
 import { motion } from "framer-motion";
@@ -197,7 +197,7 @@ const Home = ({ user }) => {
 <div className="position" style={{ marginBottom: '20px' }}>
   <h2 style={{ color: '#3498db', fontSize: '3rem', fontWeight: 'bold', marginBottom: '10px', marginLeft:'15px' }}>ORGANIZSERS</h2>
 </div>
-<Carousel cardsList={mainCoordinators} />
+<Carousel cardsList={organizsers} />
 
       {/* <ComingSoon /> */}
         </main>
