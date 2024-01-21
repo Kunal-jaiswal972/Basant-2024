@@ -167,7 +167,7 @@ const Home = ({ user }) => {
             <h2
               style={{
                 color: "#3498db",
-                fontSize: "3rem",
+                fontSize: "2.4rem",
                 fontWeight: "bold",
                 marginBottom: "10px",
                 marginLeft: "15px",
@@ -182,7 +182,7 @@ const Home = ({ user }) => {
             <h2
               style={{
                 color: "#3498db",
-                fontSize: "3rem",
+                fontSize: "2.4rem",
                 fontWeight: "bold",
                 marginBottom: "10px",
                 marginLeft: "15px",
@@ -197,13 +197,13 @@ const Home = ({ user }) => {
             <h2
               style={{
                 color: "#3498db",
-                fontSize: "3rem",
+                fontSize: "2.4rem",
                 fontWeight: "bold",
                 marginBottom: "10px",
                 marginLeft: "15px",
               }}
             >
-              ORGANIZSERS
+              ORGANIZERS
             </h2>
           </div>
           <Carousel cardsList={mainCoordinators} />
