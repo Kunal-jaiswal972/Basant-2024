@@ -141,8 +141,8 @@ const Home = ({ user }) => {
                     <ScheduleIcon />
                   </NavLink>
                 </div> */}
-                {[0, 1, 2, 3, 4, 5].map((_, idx) => (
-                  <HighlightCard key={idx} {...BasantEvents[idx]} />
+                {BasantEvents.map((events, idx) => (
+                  <HighlightCard key={idx} events={events} />
                 ))}
               </div>
             </main>

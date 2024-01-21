@@ -28,21 +28,16 @@ import React from "react";
 import cx from "classnames";
 import styles from "./HighlightCard.module.scss";
 
-const HighlightCard = ({id, title, img, type}) => {
- 
+const HighlightCard = ({ events: { id, title, img, type, desc } }) => {
   return (
     <div className={styles.card}>
       <div
         className={cx(styles.cover)}
         style={{ backgroundImage: `url(${img})` }}
       >
-        <h1>
-          {title}
-        </h1>
+        <h1>{title}</h1>
         <span className={styles.price}>{type}</span>
-        <div className={styles.cardBack}>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, veritatis?
-        </div>
+        <div className={styles.cardBack}>{desc}</div>
       </div>
     </div>
   );

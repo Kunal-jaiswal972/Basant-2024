@@ -21,18 +21,18 @@ const AboutUs = () => {
         <div className={stylesB.introContainer}>
           <div className={stylesB.imageContainer}>
             <img
-              src="/media/coordinators/joni.jpg"
+              src="/media/basant-2024/convenor.jpg"
               alt="convenor"
               className={stylesB.roundedCircle}
             />
           </div>
           <div className={stylesB.detailsContainer}>
             <h5 align="center">
-              Prof. Gauri Shankar
+              Prof Sushanta Sarangi
               <br />
               Convener, Basant'24
               <br />
-              Dept. of Electrical Engg. IIT (ISM) Dhanbad
+              Department of Applied Geology
               <br />
             </h5>
           </div>
@@ -46,19 +46,18 @@ const AboutUs = () => {
         <div className={stylesB.introContainer}>
           <div className={stylesB.imageContainer}>
             <img
-              src="/media/coordinators/joni.jpg"
+              src="/media/basant-2024/co-convenor.jpg"
               alt="convenor"
               className={stylesB.roundedCircle}
             />
           </div>
           <div className={stylesB.detailsContainer}>
             <h5 align="center">
-              Prof. Gauri Shankar
+              Prof Vinay Kumar Rajak
               <br />
-              Convener, Basant'24
+              Co-Convener, Basant'24
               <br />
-              Dept. of Electrical Engg. IIT (ISM) Dhanbad
-              <br />
+              Department of Petroleum Engineering <br />
             </h5>
           </div>
         </div>

@@ -8,7 +8,15 @@
   justify-content: space-around;
   gap: 30px;
 
+  @media screen and (max-width: 640px) {
+    flex-direction: column !important;
+  }
+
   .introContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
     .roundedCircle {
       display: flex;
       width: 200px;
@@ -45,10 +53,13 @@
 
   .textContainer {
     text-align: justify;
-    // display: -webkit-box;
-    // -webkit-line-clamp: 12;
-    // -webkit-box-orient: vertical;
-    // overflow: hidden;
+
+    > span {
+      display: -webkit-box;
+      -webkit-line-clamp: 10;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
 
     .readMoreButton {
       margin-top: 2px;
@@ -67,6 +78,6 @@
   }
 }
 
-.reverse{
-    flex-direction: row-reverse;
+.reverse {
+  flex-direction: row-reverse;
 }
