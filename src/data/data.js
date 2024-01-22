@@ -7,84 +7,91 @@ export const mainCoordinators = [
     name: "Abhishek Tiwari",
     imgSrc: "/media/coordinators/Abhishek.jpg",
     roles: ["Security Head"],
-    department : "Computer Science and Eng."
+    department : "(Computer Science and Engineering)"
   },
   {
     name: "Jeet Balode",
     imgSrc: "/media/coordinators/Jeet.jpeg",
     roles: ["Public Relations Team"],
-    department : "Computer Science and Eng."
+    department : "Civil Engineering"
   },
   {
     name: "Rohit Kumar Mondal ",
     imgSrc: "/media/coordinators/Rohit.jpg",
     roles: ["Promotion & Marketing Head"],
-    department : "Computer Science and Eng."
+    department : "Mining Engineering"
   },
   {
     name: "Aashish Ranjan Singh",
     imgSrc: "/media/coordinators/Aashish.jpeg",
     roles: ["Technical Head"],
-    department : "Computer Science and Eng."
+    department : "Mathematics and Computing"
   },
   {
     name: "Shivankar Mehta",
     imgSrc: "/media/coordinators/Shivankar.jpg",
     roles: ["Event Team"],
-    department : "Computer Science and Eng."
+    department : "Mechanical Engineering"
   },
   {
     name: "Rachit Kumar",
     imgSrc: "/media/coordinators/Rachit.jpg",
     roles: ["Event Team"],
-    department : "Computer Science and Eng."
+    department : "Petroleum Engineering"
   },
   {
     name: "Utsav Raj",
     imgSrc: "/media/coordinators/Utsav.jpg",
     roles: ["Content Team "],
-    department : "Computer Science and Eng."
+    department : "Computer Science and Engineering"
   },
   {
     name: "Kumar Akash",
     imgSrc: "/media/coordinators/Kumar.jpg",
     roles: ["Promotion and Marketing Team"],
-    department : "Computer Science and Eng."
+    department : "Petroleum Engineering"
   },
   {
     name: "Kaveri Patel",
     imgSrc: "/media/coordinators/Kaveri.jpeg",
     roles: ["Content and Design Team"],
+    department : "Petroleum Engineering"
   },
   {
     name: "Shubhranshu Animesh",
     imgSrc: "/media/coordinators/Animesh.jpg",
     roles: ["Technical Team Head"],
+    department : "Mathematics and Computing"
   },
   {
     name: "Tripti Kundu",
     imgSrc: "/media/coordinators/Tripti.jpg",
     roles: ["Cultural Team"],
+    department : "Chemistry and Chemical Biology"
   },
   {
     name: "Ankit Joshi",
     imgSrc: "/media/coordinators/Ankit.jpeg",
     roles: ["Cultural Team"],
+    department : "Chemistry and Chemical Biology"
   },
   {
     name: "SHARIQ FARHAN ELAHI",
     imgSrc: "/media/coordinators/Shariq.jpg",
     roles: ["Cultural Team"],
+    department : "Chemical Engineering"
   },
   {
     name: "Aakash Rajpoot",
     imgSrc: "/media/coordinators/aakash.jpg",
     roles: ["Cultural Team"],
+    department : "Chemical Engineering"
   },
   {
     name: "Dr. Ajay",
     imgSrc: "/media/coordinators/ajay.jpg",
     roles: ["Cultural Team"],
+    department : "Chemical Engineering"
   },
 ];
 
@@ -93,19 +100,19 @@ export const organizsers = [
     name: "Kunal Jaiswal",
     imgSrc: "/media/organizsers/kunal.jpg",
     roles: ["Organizser"],
-    department : "Computer Science and Eng."
+    department : "Mechanical Engineering"
   },
   {
     name: "Ankur Gautam",
     imgSrc: "/media/organizsers/ankur.jpg",
     roles: ["Organizser"],
-    department : "Computer Science and Eng."
+    department : "Computer Science and Engineering"
   },
   {
     name: "Archisman Roy",
     imgSrc: "/media/organizsers/archi.jpg",
     roles: ["Organizser"],
-    department : "Computer Science and Eng."
+    department : "Computer Science and Engineering"
   },
 ];
 

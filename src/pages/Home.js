@@ -206,7 +206,7 @@ const Home = ({ user }) => {
               ORGANIZERS
             </h2>
           </div>
-          <Carousel cardsList={mainCoordinators} />
+          <Carousel cardsList={organizsers} />
         </main>
       </section>
     </motion.div>
