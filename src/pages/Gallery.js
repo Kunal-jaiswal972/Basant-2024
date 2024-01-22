@@ -48,7 +48,7 @@ const Gallery = ({ user }) => {
         className={cx("page-header", styles["page-header"])}
         style={{ alignItems: "center", justifyContent: "center" }}
       >
-        <h1 className="heading">
+        <h1 className={styles.heading}>
           <span>Gallery</span>
         </h1>
         {/* <div className={cx("subtitle", styles["header-subtitle"])}>
@@ -66,7 +66,7 @@ const Gallery = ({ user }) => {
         </div>
         {/* </div> */}
 
-        <hr />
+        <hr style={{marginBottom:"20px"}}/>
 
         {/* <div className={cx(styles["gallery"])}> */}
         <div style={{ marginBottom: "50px" }}>
