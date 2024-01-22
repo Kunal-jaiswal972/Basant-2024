@@ -7,7 +7,7 @@ const links = [
   { link: '/events', name: 'Events' },
   { link: '/gallery', name: 'Gallery' },
   { link: '/about-us', name: 'About Us' },
-  { link: '/sponser', name: 'Sponser', auth: true },
+  { link: '/sponser', name: 'Sponsors', auth: true },
   { link: '/user', name: 'Profile', auth: true },
 ]
 
@@ -39,7 +39,7 @@ const Navigation = ({ user }) => {
     <header>
       <nav className={styles.nav} id="nav">
         <div className={styles.logo}>
-          <NavLink to={'/'}>BASANT</NavLink>
+          <NavLink to={'/'}>Basant</NavLink>
         </div>
         <div className={cx(styles["router-links"], styles.desktop)}>
           {links.filter(link => !link.onlyMobile && (!link.auth || user.user)).map(link => <NavItem key={link.name} {...link} />)}

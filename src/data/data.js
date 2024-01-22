@@ -118,7 +118,7 @@ export const professors = [
   {
     name: "Prof. J.K. Pattanayak",
     imgSrc: "/media/professors/patnayak.jpg",
-    roles: ["Patron", "Director IIT)ISM) Dhanbad"]
+    roles: ["Patron", "Director IIT(ISM) Dhanbad"]
   },
   {
     name: "Prof. Biswajit Paul",
@@ -131,7 +131,7 @@ export const professors = [
     roles: ["Convener"]
   },
   {
-    name: "Prof. Vinay Kuamr Rajak",
+    name: "Prof. Vinay Kumar Rajak",
     imgSrc: "/media/professors/Vinay.jpeg",
     roles: ["Co-Convner"]
   },
@@ -341,14 +341,14 @@ export const BasantEvents = [
   {
     id: "0",
     title: "Games & sports",
-    img: "/media/basant-2024/events/sports.jpeg",
+    img: "/media/basant-2024/events/sports.JPG",
     type: "event",
     desc: "The alumni reunion at the college featured a lively Games and Sports event, bringing graduates together for friendly competition and nostalgic moments. From track events to team sports, the gathering highlighted the enduring bonds forged during their college days.",
   },
   {
     id: "1",
     title: "Award ceremony",
-    img: "/media/basant-2024/events/award_ceremony.jpg",
+    img: "/media/basant-2024/events/award_ceremony.JPG",
     type: "event",
     desc: "Basant featured a prestigious Award Ceremony, honoring accomplished graduates for their outstanding contributions in diverse fields. The event inspired current students and fostered a sense of pride within the college community.",
   },
@@ -362,7 +362,7 @@ export const BasantEvents = [
   {
     id: "3",
     title: "Conference and R&D Fare",
-    img: "/media/basant-2024/events/sports.jpeg",
+    img: "/media/basant-2024/events/conference.JPG",
     type: "event",
     desc: "Basant featured a dynamic Conference and R&D Fare, connecting past and present through insightful discussions and innovative displays. Esteemed alumni shared experiences, while the fair showcased cutting-edge research, emphasizing the institution's commitment to academic excellence.",
   },

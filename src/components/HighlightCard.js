@@ -33,7 +33,7 @@ const HighlightCard = ({ events: { id, title, img, type, desc } }) => {
     <div className={styles.card}>
       <div
         className={cx(styles.cover)}
-        style={{ backgroundImage: `url(${img})` }}
+        style={{ backgroundImage: `url(${img})`, backgroundColor: "#000" }}
       >
         <h1>{title}</h1>
         <span className={styles.price}>{type}</span>

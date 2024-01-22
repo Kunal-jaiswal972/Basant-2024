@@ -44,14 +44,17 @@ const Gallery = ({ user }) => {
       animate={{ scaleX: 1 }}
       exit={{ scaleX: 0 }}
     >
-      <header className={cx("page-header", styles["page-header"])}>
+      <header
+        className={cx("page-header", styles["page-header"])}
+        style={{ alignItems: "center", justifyContent: "center" }}
+      >
         <h1 className="heading">
           <span>Gallery</span>
         </h1>
-        <div className={cx("subtitle", styles["header-subtitle"])}>
+        {/* <div className={cx("subtitle", styles["header-subtitle"])}>
           <h2>Feb.3-4</h2>
           <div>Basant'23 </div>
-        </div>
+        </div> */}
       </header>
       <main className={cx(styles["main-content"])}>
         <div className={cx(styles["gallery"])}>
@@ -71,7 +74,7 @@ const Gallery = ({ user }) => {
             <h2> DAY 2</h2>
           </div>
           <div className="Video">
-            <SecondDay/>
+            <SecondDay />
 
             {/* <ComingSoon theme="dark" size="small" /> */}
             {/* <Video embedId={'xwGDkyz_LgI'} /> */}
