@@ -44,7 +44,7 @@ const Navigation = ({ user }) => {
         <div className={cx(styles["router-links"], styles.desktop)}>
           {links.filter(link => !link.onlyMobile && (!link.auth || user.user)).map(link => <NavItem key={link.name} {...link} />)}
           {!user.user && (
-            <NavItem link={'/sponser'} name={'Sponsers'} />
+            <NavItem link={'/sponser'} name={'Sponsors'} />
           )}
           {/* {user.user && user.admin && (
             <NavItem link={'/admin'} name={'Admin'} />
@@ -66,7 +66,7 @@ const Navigation = ({ user }) => {
           )}
           {!user.user && (
             <li key={'noauth'}><NavItem handleClick={toggleMobileNav}
-              {...{ link: '/sponser', name: 'Sponser' }} /></li>
+              {...{ link: '/sponser', name: 'Sponsors' }} /></li>
           )}
           {/* {user.user && user.admin && (
             <li key={'noauth'}><NavItem handleClick={toggleMobileNav}

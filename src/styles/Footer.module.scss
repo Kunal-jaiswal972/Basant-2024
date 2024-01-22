@@ -303,3 +303,9 @@ footer {
         }
     }
 }
+
+.contact{
+    @media screen and (max-width: 640px) {
+        text-align: center;
+    }
+}

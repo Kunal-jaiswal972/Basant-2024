@@ -15,10 +15,97 @@ const Footer = () => {
     <footer className="container">
       <div className={styles.MainFooterContent}>
         <div className={cx(styles.footerItems)} id="footerContent">
-          <div className={styles.QuotesContainer}>
+          <div
+            className={styles.QuotesContainer}
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: "2rem",
+            }}
+          >
             <div className={styles.quotes}>
               Our cultural fest is a mosaic of traditions, where stories unfold,
               and memories are made
+            </div>
+            <div className={styles.footerItems}>
+              <div>
+                <p className={styles.contact}>Contact us</p>
+                <ul className={styles.SocialHandles}>
+                  <li className={cx(styles["handle-wrapper"])}>
+                    <a
+                      className={styles.handle}
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://www.facebook.com/profile.php?id=61555714741202"
+                    >
+                      <svg
+                        role="presentation"
+                        aria-label="Facebook"
+                        aria-hidden="true"
+                      >
+                        <use href="/media/icons/sprite.svg#social-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  {/* <li className={cx(styles["handle-wrapper"])}>
+                    <a
+                      className={styles.handle}
+                      target="_blank"
+                      rel="noreferrer"
+                      href="#"
+                    >
+                      <svg
+                        role="presentation"
+                        aria-label="Twitter"
+                        aria-hidden="true"
+                      >
+                        <use href="/media/icons/sprite.svg#social-instagram"></use>
+                      </svg>
+                    </a>
+                  </li> */}
+                  <li className={cx(styles["handle-wrapper"])}>
+                    <a
+                      className={styles.handle}
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://www.linkedin.com/company/basant-iit-ism-dhanbad/"
+                    >
+                      {/* <MailIcon /> */}
+                      <svg
+                        role="presentation"
+                        aria-label="Linkedin"
+                        aria-hidden="true"
+                      >
+                        <use href="/media/icons/sprite.svg#social-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li className={cx(styles["handle-wrapper"])}>
+                    <a
+                      className={styles.handle}
+                      target="_blank"
+                      rel="noreferrer"
+                      href="mailto:basant@iitism.ac.in"
+                    >
+                      <MailIcon />
+                    </a>
+                  </li>
+                  {/* <li className={cx(styles['handle-wrapper'])}>
+                <a className={styles.handle} target='_blank' rel='noreferrer' href="https://chat.whatsapp.com/HmcowbF1mbG7DRJxti4X4X">
+                  <WAIcon />
+                </a>
+              </li> */}
+                </ul>
+              </div>
+
+              {/* <div className={styles.thanks}>
+            <span>Thank you</span>
+            <br />
+            <span>for your support</span>
+          </div> */}
+              {/* <div>
+            <img src={bye} style={{ height: "160px", width: "auto" }} alt=""></img>
+          </div> */}
             </div>
           </div>
 
@@ -42,69 +129,6 @@ const Footer = () => {
             </div>
           </div> */}
         </div>
-        <div className={styles.footerItems}>
-          <div>
-            <p>Contact us</p>
-            <ul className={styles.SocialHandles}>
-              <li className={cx(styles["handle-wrapper"])}>
-                <a
-                  className={styles.handle}
-                  target="_blank"
-                  rel="noreferrer"
-                  href="#"
-                >
-                  <svg
-                    role="presentation"
-                    aria-label="Facebook"
-                    aria-hidden="true"
-                  >
-                    <use href="/media/icons/sprite.svg#social-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li className={cx(styles["handle-wrapper"])}>
-                <a
-                  className={styles.handle}
-                  target="_blank"
-                  rel="noreferrer"
-                  href="#"
-                >
-                  <svg
-                    role="presentation"
-                    aria-label="Twitter"
-                    aria-hidden="true"
-                  >
-                    <use href="/media/icons/sprite.svg#social-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li className={cx(styles["handle-wrapper"])}>
-                <a
-                  className={styles.handle}
-                  target="_blank"
-                  rel="noreferrer"
-                  href="#"
-                >
-                  <MailIcon />
-                </a>
-              </li>
-              {/* <li className={cx(styles['handle-wrapper'])}>
-                <a className={styles.handle} target='_blank' rel='noreferrer' href="https://chat.whatsapp.com/HmcowbF1mbG7DRJxti4X4X">
-                  <WAIcon />
-                </a>
-              </li> */}
-            </ul>
-          </div>
-
-          <div className={styles.thanks}>
-            <span>Thank you</span>
-            <br />
-            <span>for your support</span>
-          </div>
-          {/* <div>
-            <img src={bye} style={{ height: "160px", width: "auto" }} alt=""></img>
-          </div> */}
-        </div>
       </div>
       <div className={styles.copyright}>
         <div className={styles.team}>
@@ -118,7 +142,7 @@ const Footer = () => {
           </span>
           <span className={styles.sep}>~</span> */}
           <span>&copy; 2024 BASANT IIT(ISM) DHANBAD</span>
-          {devTeam && (
+          {/* {devTeam && (
             <ul className={styles.devteam}>
               <li>
                 <a
@@ -151,7 +175,7 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          )}
+          )} */}
         </div>
       </div>
     </footer>

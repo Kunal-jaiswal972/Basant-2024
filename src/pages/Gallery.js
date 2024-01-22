@@ -4,8 +4,8 @@ import "react-html5video/dist/styles.css";
 import { motion } from "framer-motion";
 import ComingSoon from "../components/ComingSoon";
 
-import FirstDay from "../components/FirstDay";
-import SecondDay from "../components/SecondDay";
+import Day from "../components/Day";
+import { firstDayImages, secondDayImages } from "../data/data";
 
 const Gallery = ({ user }) => {
   const Video = ({ embedId }) => {
@@ -57,31 +57,25 @@ const Gallery = ({ user }) => {
         </div> */}
       </header>
       <main className={cx(styles["main-content"])}>
-        <div className={cx(styles["gallery"])}>
+        {/* <div className={cx(styles["gallery"])}> */}
+        <div style={{ marginBottom: "50px" }}>
           <div className={cx(styles["h1"])}>
-            <h2> DAY 1</h2>
+            <h2>DAY 1</h2>
           </div>
-          <div className="Video">
-            <FirstDay />
-            {/* <ComingSoon theme="dark" size="small" /> */}
-            {/* <Video embedId={"lG3S6VUt7AE"} /> */}
-          </div>
+          <Day images={firstDayImages} />
         </div>
-        <br />
-        <hr />
-        <div className={cx(styles["gallery"])}>
-          <div className={cx(styles["h1"])}>
-            <h2> DAY 2</h2>
-          </div>
-          <div className="Video">
-            <SecondDay />
+        {/* </div> */}
 
-            {/* <ComingSoon theme="dark" size="small" /> */}
-            {/* <Video embedId={'xwGDkyz_LgI'} /> */}
-          </div>
-        </div>
-        <br />
         <hr />
+
+        {/* <div className={cx(styles["gallery"])}> */}
+        <div style={{ marginBottom: "50px" }}>
+          <div className={cx(styles["h1"])}>
+            <h2>DAY 2</h2>
+          </div>
+          <Day images={secondDayImages} />
+        </div>
+        {/* </div> */}
       </main>
     </motion.div>
   );

@@ -7,91 +7,91 @@ export const mainCoordinators = [
     name: "Abhishek Tiwari",
     imgSrc: "/media/coordinators/Abhishek.jpg",
     roles: ["Security Head"],
-    department : "(Computer Science and Engineering)"
+    department: "(Computer Science and Engineering)",
   },
   {
     name: "Jeet Balode",
     imgSrc: "/media/coordinators/Jeet.jpeg",
     roles: ["Public Relations Team"],
-    department : "Civil Engineering"
+    department: "Civil Engineering",
   },
   {
     name: "Rohit Kumar Mondal ",
     imgSrc: "/media/coordinators/Rohit.jpg",
     roles: ["Promotion & Marketing Head"],
-    department : "Mining Engineering"
+    department: "Mining Engineering",
   },
   {
     name: "Aashish Ranjan Singh",
     imgSrc: "/media/coordinators/Aashish.jpeg",
     roles: ["Technical Head"],
-    department : "Mathematics and Computing"
+    department: "Mathematics and Computing",
   },
   {
     name: "Shivankar Mehta",
     imgSrc: "/media/coordinators/Shivankar.jpg",
     roles: ["Event Team"],
-    department : "Mechanical Engineering"
+    department: "Mechanical Engineering",
   },
   {
     name: "Rachit Kumar",
     imgSrc: "/media/coordinators/Rachit.jpg",
     roles: ["Event Team"],
-    department : "Petroleum Engineering"
+    department: "Petroleum Engineering",
   },
   {
     name: "Utsav Raj",
     imgSrc: "/media/coordinators/Utsav.jpg",
     roles: ["Content Team "],
-    department : "Computer Science and Engineering"
+    department: "Computer Science and Engineering",
   },
   {
     name: "Kumar Akash",
     imgSrc: "/media/coordinators/Kumar.jpg",
     roles: ["Promotion and Marketing Team"],
-    department : "Petroleum Engineering"
+    department: "Petroleum Engineering",
   },
   {
     name: "Kaveri Patel",
     imgSrc: "/media/coordinators/Kaveri.jpeg",
     roles: ["Content and Design Team"],
-    department : "Petroleum Engineering"
+    department: "Petroleum Engineering",
   },
   {
     name: "Shubhranshu Animesh",
     imgSrc: "/media/coordinators/Animesh.jpg",
     roles: ["Technical Team Head"],
-    department : "Mathematics and Computing"
+    department: "Mathematics and Computing",
   },
   {
     name: "Tripti Kundu",
     imgSrc: "/media/coordinators/Tripti.jpg",
     roles: ["Cultural Team"],
-    department : "Chemistry and Chemical Biology"
+    department: "Chemistry and Chemical Biology",
   },
   {
     name: "Ankit Joshi",
     imgSrc: "/media/coordinators/Ankit.jpeg",
     roles: ["Cultural Team"],
-    department : "Chemistry and Chemical Biology"
+    department: "Chemistry and Chemical Biology",
   },
   {
     name: "SHARIQ FARHAN ELAHI",
     imgSrc: "/media/coordinators/Shariq.jpg",
     roles: ["Cultural Team"],
-    department : "Chemical Engineering"
+    department: "Chemical Engineering",
   },
   {
     name: "Aakash Rajpoot",
     imgSrc: "/media/coordinators/aakash.jpg",
     roles: ["Cultural Team"],
-    department : "Chemical Engineering"
+    department: "Chemical Engineering",
   },
   {
     name: "Dr. Ajay",
     imgSrc: "/media/coordinators/ajay.jpg",
     roles: ["Cultural Team"],
-    department : "Chemical Engineering"
+    department: "Chemical Engineering",
   },
 ];
 
@@ -100,19 +100,19 @@ export const organizsers = [
     name: "Kunal Jaiswal",
     imgSrc: "/media/organizsers/kunal.jpg",
     roles: ["Organizser"],
-    department : "Mechanical Engineering"
+    department: "Mechanical Engineering",
   },
   {
     name: "Ankur Gautam",
     imgSrc: "/media/organizsers/ankur.jpg",
     roles: ["Organizser"],
-    department : "Computer Science and Engineering"
+    department: "Computer Science and Engineering",
   },
   {
     name: "Archisman Roy",
     imgSrc: "/media/organizsers/archi.jpg",
     roles: ["Organizser"],
-    department : "Computer Science and Engineering"
+    department: "Computer Science and Engineering",
   },
 ];
 
@@ -120,42 +120,42 @@ export const professors = [
   {
     name: "Prof. Prem Vrat",
     imgSrc: "/media/professors/prem.jpeg",
-    roles: ["Cheif Patron",  "Chairman"]
+    roles: ["Cheif Patron", "Chairman"],
   },
   {
     name: "Prof. J.K. Pattanayak",
     imgSrc: "/media/professors/patnayak.jpg",
-    roles: ["Patron", "Director IIT(ISM) Dhanbad"]
+    roles: ["Patron", "Director IIT(ISM) Dhanbad"],
   },
   {
     name: "Prof. Biswajit Paul",
     imgSrc: "/media/professors/Biswajit.jpeg",
-    roles: ["Vice-President"]
+    roles: ["Vice-President"],
   },
   {
     name: "Prof. S. Sarangi",
     imgSrc: "/media/professors/Sarangi.jpeg",
-    roles: ["Convener"]
+    roles: ["Convener"],
   },
   {
     name: "Prof. Vinay Kumar Rajak",
     imgSrc: "/media/professors/Vinay.jpeg",
-    roles: ["Co-Convner"]
+    roles: ["Co-Convner"],
   },
   {
     name: "Prof. Manish Kumar Jain",
     imgSrc: "/media/professors/Manish.jpg",
-    roles: ["Convener"]
+    roles: ["Convener"],
   },
   {
     name: "Prof. Ravi Kumar Gangwar",
     imgSrc: "/media/professors/Ravi.png",
-    roles: ["Co-Convner"]
+    roles: ["Co-Convner"],
   },
   {
     name: "Prof. VGK Villuri",
     imgSrc: "/media/professors/Villuri.jpeg",
-    roles: ["Treasurer"]
+    roles: ["Treasurer"],
   },
 ];
 
@@ -172,7 +172,8 @@ export const events = {
     id: "0",
     slotId: "0",
     title: "Sports/Tennis",
-    figureSrc: "https://images.pexels.com/photos/6292463/pexels-photo-6292463.jpeg",
+    figureSrc:
+      "https://images.pexels.com/photos/6292463/pexels-photo-6292463.jpeg",
     day: 1,
     time: "09:00 ",
     venue: "Old Hostel",
@@ -184,7 +185,8 @@ export const events = {
     id: "17",
     slotId: "0",
     title: "Bhumi Pujan Centenary Building",
-    figureSrc: "https://www.sriastrovastu.com/wp-content/uploads/2019/11/Bhoomi-Puja_2-1-1.jpg",
+    figureSrc:
+      "https://www.sriastrovastu.com/wp-content/uploads/2019/11/Bhoomi-Puja_2-1-1.jpg",
     day: 1,
     time: "11:00",
     venue: "In front of new library",
@@ -199,7 +201,8 @@ export const events = {
     id: "2",
     slotId: "0",
     title: "Working Lunch",
-    figureSrc: "https://media.istockphoto.com/id/613556530/photo/eating-delicous-homemade-chicken-curry-dish-with-rice.jpg?s=612x612&w=0&k=20&c=q_kUV6Un4IJiKqTL606q-r7ZzqWktDuvfaAU4EBHZ7g=",
+    figureSrc:
+      "https://media.istockphoto.com/id/613556530/photo/eating-delicous-homemade-chicken-curry-dish-with-rice.jpg?s=612x612&w=0&k=20&c=q_kUV6Un4IJiKqTL606q-r7ZzqWktDuvfaAU4EBHZ7g=",
     day: 1,
     time: "11:15",
     venue: "Penman quadriangle",
@@ -213,7 +216,8 @@ export const events = {
     id: "3",
     slotId: "1",
     title: "Fete",
-    figureSrc: "https://images.unsplash.com/photo-1562874662-050427780b20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    figureSrc:
+      "https://images.unsplash.com/photo-1562874662-050427780b20?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     day: 1,
     time: "15:00",
     venue: "Outside GJLT",
@@ -227,7 +231,8 @@ export const events = {
     id: "4",
     slotId: "1",
     title: "GBM",
-    figureSrc: "https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg",
+    figureSrc:
+      "https://images.pexels.com/photos/976866/pexels-photo-976866.jpeg",
     day: 1,
     time: "16:00",
     venue: "GJLT",
@@ -241,7 +246,8 @@ export const events = {
   5: {
     id: "5",
     title: "Award Ceremony",
-    figureSrc: "https://i.pinimg.com/564x/5d/96/ad/5d96ad72a3cb1e169185d9001be37aff.jpg",
+    figureSrc:
+      "https://i.pinimg.com/564x/5d/96/ad/5d96ad72a3cb1e169185d9001be37aff.jpg",
     day: 1,
     time: "17:00",
     venue: "Penman Auditorium",
@@ -252,7 +258,8 @@ export const events = {
   6: {
     id: "6",
     title: "Cultural Programme",
-    figureSrc: "https://images.pexels.com/photos/1656066/pexels-photo-1656066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    figureSrc:
+      "https://images.pexels.com/photos/1656066/pexels-photo-1656066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     day: 1,
     time: "18:30",
     venue: "Penman Auditorium",
@@ -264,7 +271,8 @@ export const events = {
     id: "7",
     slotId: "2",
     title: "Dinner",
-    figureSrc: "https://media.istockphoto.com/id/1553473885/photo/happy-extended-indian-family-dining-together-outdoors-in-fancy-house-garden-at-night-family.jpg?s=612x612&w=0&k=20&c=_oUDTPMo6pMHzCXFnZf7uEkTKoOb0RE5GzvldYdFH0A=",
+    figureSrc:
+      "https://media.istockphoto.com/id/1553473885/photo/happy-extended-indian-family-dining-together-outdoors-in-fancy-house-garden-at-night-family.jpg?s=612x612&w=0&k=20&c=_oUDTPMo6pMHzCXFnZf7uEkTKoOb0RE5GzvldYdFH0A=",
     day: 1,
     time: "19:30",
     venue: "Penman quadriangle",
@@ -279,7 +287,8 @@ export const events = {
     id: "1",
     slotId: "2",
     title: "Star Night",
-    figureSrc: "https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    figureSrc:
+      "https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     day: 1,
     time: "20:00",
     venue: "Amber ground",
@@ -294,7 +303,8 @@ export const events = {
     id: "9",
     slotId: "3",
     title: "Photography Session",
-    figureSrc: "https://images.pexels.com/photos/403495/pexels-photo-403495.jpeg",
+    figureSrc:
+      "https://images.pexels.com/photos/403495/pexels-photo-403495.jpeg",
     day: 0,
     time: "09:00",
     venue: "Oval ground",
@@ -309,7 +319,8 @@ export const events = {
     id: "10",
     slotId: "4",
     title: "Visit to Moonidih/Maithan",
-    figureSrc: "https://media1.thrillophilia.com/filestore/kufj4lh0atr4tknlt06w7hu02iff_1468498056_kasol_(14).JPG",
+    figureSrc:
+      "https://media1.thrillophilia.com/filestore/kufj4lh0atr4tknlt06w7hu02iff_1468498056_kasol_(14).JPG",
     day: 0,
     time: "11:00",
     venue: "",
@@ -323,7 +334,8 @@ export const events = {
   12: {
     id: "12",
     title: "Cultural Programme",
-    figureSrc: "https://images.pexels.com/photos/2254140/pexels-photo-2254140.jpeg",
+    figureSrc:
+      "https://images.pexels.com/photos/2254140/pexels-photo-2254140.jpeg",
     day: 0,
     time: "18:00",
     venue: "Penman Auditorium",
@@ -331,7 +343,6 @@ export const events = {
     type: "Pre round for Mr. & Ms. Atulyam",
     highlight: false,
   },
-
 };
 
 export const eventSlots = {
@@ -373,4 +384,57 @@ export const BasantEvents = [
     type: "event",
     desc: "Basant featured a dynamic Conference and R&D Fare, connecting past and present through insightful discussions and innovative displays. Esteemed alumni shared experiences, while the fair showcased cutting-edge research, emphasizing the institution's commitment to academic excellence.",
   },
+];
+
+export const firstDayImages = [
+  {
+    url: "media/day1/DSC_7373.JPG",
+    // caption: 'Slide 1'
+  },
+  {
+    url: "media/day1/DSC_7390.JPG",
+    // caption: 'Slide 2'
+  },
+  {
+    url: "media/day1/DSC_7436.JPG",
+    // caption: 'Slide 3'
+  },
+  {
+    url: "media/day1/DSC_7447.JPG",
+    // caption: 'Slide 3'
+  },
+  {
+    url: "media/day1/DSC_7451.JPG",
+    // caption: 'Slide 3'
+  },
+  {
+    url: "media/day1/DSC_7542.JPG",
+    // caption: 'Slide 3'
+  },
+  {
+    url: "media/day1/DSC_7780.JPG",
+    // caption: 'Slide 3'
+  },
+  {
+    url: "media/day1/DSC_7789.JPG",
+    // caption: 'Slide 3'
+  },
+  {
+    url: "media/day1/DSC_7796.JPG",
+    // caption: 'Slide 3'
+  },
+];
+
+export const secondDayImages = [
+  { url: "media/day2/_DSC0007.JPG" },
+  { url: "media/day2/_DSC0038.JPG" },
+  { url: "media/day2/_DSC0143.JPG" },
+  { url: "media/day2/_DSC0144.JPG" },
+  { url: "media/day2/_DSC0237.JPG" },
+  { url: "media/day2/_DSC0245.JPG" },
+  { url: "media/day2/_DSC0261.JPG" },
+  { url: "media/day2/_DSC0273.JPG" },
+  { url: "media/day2/_DSC0281.JPG" },
+  { url: "media/day2/_DSC0292.jpg" },
+  { url: "media/day2/_DSC9949.JPG" },
 ];

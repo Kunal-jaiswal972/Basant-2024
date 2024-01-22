@@ -203,7 +203,7 @@ const Home = ({ user }) => {
                 marginLeft: "15px",
               }}
             >
-              ORGANIZERS
+              MADE BY
             </h2>
           </div>
           <Carousel cardsList={organizsers} />
