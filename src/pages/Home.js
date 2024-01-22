@@ -8,7 +8,7 @@ import Carousel from "../components/Carousel";
 import HighlightCard from "../components/HighlightCard";
 
 import { BasantEvents, events, highlights, organizsers } from "../data/data";
-import { mainCoordinators, coordinators } from "../data/data";
+import { mainCoordinators, coordinators, professors } from "../data/data";
 import Hero from "../components/Hero";
 import { motion } from "framer-motion";
 import ComingSoon from "../components/ComingSoon";
@@ -176,7 +176,7 @@ const Home = ({ user }) => {
               PROFESSORS
             </h2>
           </div>
-          <Carousel cardsList={mainCoordinators} />
+          <Carousel cardsList={professors} />
 
           <div className="position" style={{ marginBottom: "20px" }}>
             <h2
@@ -193,29 +193,12 @@ const Home = ({ user }) => {
           </div>
           <Carousel cardsList={mainCoordinators} />
 
-<<<<<<< HEAD
 <div className="position" style={{ marginBottom: '20px' }}>
   <h2 style={{ color: '#3498db', fontSize: '3rem', fontWeight: 'bold', marginBottom: '10px', marginLeft:'15px' }}>ORGANIZSERS</h2>
 </div>
 <Carousel cardsList={organizsers} />
 
       {/* <ComingSoon /> */}
-=======
-          <div className="position" style={{ marginBottom: "20px" }}>
-            <h2
-              style={{
-                color: "#3498db",
-                fontSize: "3rem",
-                fontWeight: "bold",
-                marginBottom: "10px",
-                marginLeft: "15px",
-              }}
-            >
-              ORGANIZSERS
-            </h2>
-          </div>
-          <Carousel cardsList={mainCoordinators} />
->>>>>>> baac23ab2f0250dfcc2b8c53a2783722e22e3a73
         </main>
       </section>
     </motion.div>

@@ -105,7 +105,9 @@ const Events = ({ user }) => {
               .sort(timeCompare)
               .map(id => <EventLI key={id} {...events[id]} handleHover={setActiveEventId} />)}
           </ul>
-          <ComingSoon theme="dark" size="small"/>
+
+          {/* <ComingSoon theme="dark" size="small"/> */}
+          
           <div className={styles["event-figures"]}>
             <div className={styles.figures}>
               {Object.keys(events)

@@ -17,7 +17,7 @@ const CarouselCard = ({ imgSrc, name, roles, department }) => {
             {name}
           </h3>
           <p className={styles['card-department']}>
-            Department: {department}
+           {department}
           </p>
           <ul className={styles['card-footer']}>
             {roles.map((role, i) => (

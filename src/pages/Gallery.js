@@ -56,10 +56,7 @@ const Gallery = ({ user }) => {
       <main className={cx(styles["main-content"])}>
         <div className={cx(styles["gallery"])}>
           <div className={cx(styles["h1"])}>
-            <h6> DAY 1</h6>
-            <p>
-              3<sup>rd</sup> Feb
-            </p>
+            <h2> DAY 1</h2>
           </div>
           <div className="Video">
             <FirstDay />
@@ -71,10 +68,7 @@ const Gallery = ({ user }) => {
         <hr />
         <div className={cx(styles["gallery"])}>
           <div className={cx(styles["h1"])}>
-            <h6> DAY 2</h6>
-            <p>
-              4<sup>th</sup> Feb
-            </p>
+            <h2> DAY 2</h2>
           </div>
           <div className="Video">
             <SecondDay/>
