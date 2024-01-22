@@ -348,7 +348,7 @@ export const BasantEvents = [
   {
     id: "1",
     title: "Award ceremony",
-    img: "/media/basant-2024/events/award_ceremony.JPG",
+    img: "/media/basant-2024/events/award_ceremony.jpg",
     type: "event",
     desc: "Basant featured a prestigious Award Ceremony, honoring accomplished graduates for their outstanding contributions in diverse fields. The event inspired current students and fostered a sense of pride within the college community.",
   },
