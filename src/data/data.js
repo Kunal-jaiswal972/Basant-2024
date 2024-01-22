@@ -1,4 +1,4 @@
-// import dj from "../media/dj.jpeg";
+// import dj from "../media/basant-2024/dj.jpeg";
 
 export const eventStartDate = "Feb 3, 2024 10:00:00";
 
@@ -340,38 +340,30 @@ export const eventSlots = {
 export const BasantEvents = [
   {
     id: "0",
-    title: "dj night",
-    img: "/media/events/dj.jpeg",
+    title: "Games & sports",
+    img: "/media/basant-2024/events/sports.jpeg",
     type: "event",
+    desc: "The alumni reunion at the college featured a lively Games and Sports event, bringing graduates together for friendly competition and nostalgic moments. From track events to team sports, the gathering highlighted the enduring bonds forged during their college days.",
   },
   {
     id: "1",
-    title: "star night",
-    img: "/media/events/dance.jpeg",
+    title: "Award ceremony",
+    img: "/media/basant-2024/events/award_ceremony.jpg",
     type: "event",
+    desc: "Basant featured a prestigious Award Ceremony, honoring accomplished graduates for their outstanding contributions in diverse fields. The event inspired current students and fostered a sense of pride within the college community.",
   },
   {
     id: "2",
-    title: "poetry",
-    img: "/media/events/poetry.jpg",
+    title: "Star night",
+    img: "/media/basant-2024/events/star_night.jpeg",
     type: "event",
+    desc: "Basant had a spectacular Star Night with a live concert by a famous celebrity. The campus buzzed with excitement as the renowned artist's performance lit up the night, creating unforgettable memories for all in attendance.",
   },
   {
     id: "3",
-    title: "band",
-    img: "/media/events/band.jpg",
+    title: "Conference and R&D Fare",
+    img: "/media/basant-2024/events/sports.jpeg",
     type: "event",
-  },
-  {
-    id: "4",
-    title: "singing",
-    img: "/media/events/singing.jpeg",
-    type: "event",
-  },
-  {
-    id: "5",
-    title: "quiz",
-    img: "/media/events/quiz.jpg",
-    type: "event",
+    desc: "Basant featured a dynamic Conference and R&D Fare, connecting past and present through insightful discussions and innovative displays. Esteemed alumni shared experiences, while the fair showcased cutting-edge research, emphasizing the institution's commitment to academic excellence.",
   },
 ];

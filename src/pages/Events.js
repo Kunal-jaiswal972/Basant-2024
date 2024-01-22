@@ -85,7 +85,7 @@ const Events = ({ user }) => {
       <main className={cx(styles["main-content"])}>
         <nav className={styles["schedule-nav"]}>
           <ul className={styles.tabs}>
-            {["Sat.", "Sun"].map((day, i) => (
+            {["Sat", "Sun"].map((day, i) => (
               <ScheduleNavBtn
                 key={day}
                 currentDay={currentDay}
@@ -105,9 +105,7 @@ const Events = ({ user }) => {
               .sort(timeCompare)
               .map(id => <EventLI key={id} {...events[id]} handleHover={setActiveEventId} />)}
           </ul>
-
           {/* <ComingSoon theme="dark" size="small"/> */}
-          
           <div className={styles["event-figures"]}>
             <div className={styles.figures}>
               {Object.keys(events)

@@ -95,7 +95,7 @@ const Home = ({ user }) => {
             <span>Message</span>
           </h2>
         </header>
-        <Message/>
+        <Message />
       </section>
 
       {comingSoon ? (
@@ -141,8 +141,8 @@ const Home = ({ user }) => {
                     <ScheduleIcon />
                   </NavLink>
                 </div> */}
-                {[0, 1, 2, 3, 4, 5].map((_, idx) => (
-                  <HighlightCard key={idx} {...BasantEvents[idx]} />
+                {BasantEvents.map((events, idx) => (
+                  <HighlightCard key={idx} events={events} />
                 ))}
               </div>
             </main>
@@ -167,7 +167,7 @@ const Home = ({ user }) => {
             <h2
               style={{
                 color: "#3498db",
-                fontSize: "3rem",
+                fontSize: "2.4rem",
                 fontWeight: "bold",
                 marginBottom: "10px",
                 marginLeft: "15px",
@@ -182,7 +182,7 @@ const Home = ({ user }) => {
             <h2
               style={{
                 color: "#3498db",
-                fontSize: "3rem",
+                fontSize: "2.4rem",
                 fontWeight: "bold",
                 marginBottom: "10px",
                 marginLeft: "15px",
@@ -193,12 +193,20 @@ const Home = ({ user }) => {
           </div>
           <Carousel cardsList={mainCoordinators} />
 
-<div className="position" style={{ marginBottom: '20px' }}>
-  <h2 style={{ color: '#3498db', fontSize: '3rem', fontWeight: 'bold', marginBottom: '10px', marginLeft:'15px' }}>ORGANIZSERS</h2>
-</div>
-<Carousel cardsList={organizsers} />
-
-      {/* <ComingSoon /> */}
+          <div className="position" style={{ marginBottom: "20px" }}>
+            <h2
+              style={{
+                color: "#3498db",
+                fontSize: "2.4rem",
+                fontWeight: "bold",
+                marginBottom: "10px",
+                marginLeft: "15px",
+              }}
+            >
+              ORGANIZERS
+            </h2>
+          </div>
+          <Carousel cardsList={mainCoordinators} />
         </main>
       </section>
     </motion.div>

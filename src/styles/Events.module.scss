@@ -5,8 +5,8 @@
     --li-time-width: 100%;
 
     .page-header {
-        @media screen and (max-width: 699px) {
-            height: 100vh;
+        @media screen and (max-width: 780px) {
+            height: 10.5rem;
         }
     }
 
@@ -48,7 +48,7 @@
 
         @media screen and (max-width: 699px) {
             >h2 {
-                font-size: 16vw;
+                font-size: 10vw;
             }
         }
     }
