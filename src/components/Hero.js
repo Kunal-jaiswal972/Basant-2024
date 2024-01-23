@@ -66,7 +66,11 @@ const Hero = () => {
         muted={true}
         loop={true}
       >
-        <source src={HeroVideo} />
+        <source
+          src={"/media/basant-2024/video.mp4" || "https://firebasestorage.googleapis.com/v0/b/basant-2024.appspot.com/o/frag2%20(1)%20(1).mp4?alt=media&token=5fcd4541-9d34-4205-9328-ab4693ccf08f"}
+          type="video/mp4"
+        />
+        {/* <source src={HeroVideo} /> */}
       </video>
       <div className={styles.content}>
         <h1 className={styles.logo}>
