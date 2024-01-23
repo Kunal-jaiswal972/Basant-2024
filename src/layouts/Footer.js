@@ -1,5 +1,4 @@
 import styles from "../styles/Footer.module.scss";
-import logoBW from "../media/Logo_White.png";
 import echoOfArunachal from "../media/logo/echo_arunachal.png";
 import hotelObsidianBlue from "../media/logo/hotel-obsidian-blue.png";
 import bye from "../media/bye.png";
@@ -112,7 +111,7 @@ const Footer = () => {
           <div>
             <div className={styles.LogoContainer}>
               <img
-                src={logoBW}
+                src="./media/Logo_White.png"
                 alt="logo"
                 style={{ width: "160px", height: "160px" }}
               />
