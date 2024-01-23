@@ -24,8 +24,8 @@ const Footer = () => {
             }}
           >
             <div className={styles.quotes}>
-              Our cultural fest is a mosaic of traditions, where stories unfold,
-              and memories are made
+              Reviving memories, forging connections - Celebrating the spirit of
+              our alma mater at basant
             </div>
             <div className={styles.footerItems}>
               <div>
