@@ -74,7 +74,7 @@ const Hero = () => {
       </video>
       <div className={styles.content}>
         <h1 className={styles.logo}>
-          <span className="shouldAnimate">B</span>
+          {/* <span className="shouldAnimate">B</span>
           <span className="shouldAnimate">a</span>
           <span className="shouldAnimate">s</span>
           <span className="shouldAnimate">a</span>
@@ -83,7 +83,8 @@ const Hero = () => {
           <span className="shouldAnimate">&</span>
           <span className="shouldAnimate">I</span>
           <span className="shouldAnimate">I</span>
-          <span className="shouldAnimate">I</span>
+          <span className="shouldAnimate">I</span> */}
+          <span className="shouldAnimate">Basant & III</span>
         </h1>
 
         <div className={styles.timeline}>
