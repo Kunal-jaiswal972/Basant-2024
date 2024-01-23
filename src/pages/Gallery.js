@@ -1,6 +1,6 @@
 import styles from "../styles/Gallery.module.scss";
 import cx from "classnames";
-import "react-html5video/dist/styles.css";
+// import "react-html5video/dist/styles.css";
 import { motion } from "framer-motion";
 import ComingSoon from "../components/ComingSoon";
 
