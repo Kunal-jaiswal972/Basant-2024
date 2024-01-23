@@ -171,12 +171,12 @@ export const events = {
   0: {
     id: "0",
     slotId: "0",
-    title: "Sports/Tennis",
+    title: "Games & Sports",
     figureSrc:
       "https://images.pexels.com/photos/6292463/pexels-photo-6292463.jpeg",
     day: 1,
     time: "09:00 ",
-    venue: "Old Hostel",
+    venue: "Old Hostel / Lawn Tennis Court",
     desc: "",
     type: "",
     highlight: false,
@@ -184,7 +184,7 @@ export const events = {
   17: {
     id: "17",
     slotId: "0",
-    title: "Bhumi Pujan Centenary Building",
+    title: "Bhumi Pujan ",
     figureSrc:
       "https://www.sriastrovastu.com/wp-content/uploads/2019/11/Bhoomi-Puja_2-1-1.jpg",
     day: 1,
@@ -204,8 +204,8 @@ export const events = {
     figureSrc:
       "https://media.istockphoto.com/id/613556530/photo/eating-delicous-homemade-chicken-curry-dish-with-rice.jpg?s=612x612&w=0&k=20&c=q_kUV6Un4IJiKqTL606q-r7ZzqWktDuvfaAU4EBHZ7g=",
     day: 1,
-    time: "11:15",
-    venue: "Penman quadriangle",
+    time: "12:30",
+    venue: "Penman Quadrangle",
     desc: "",
     type: "Contest",
     highlight: true,
@@ -249,7 +249,7 @@ export const events = {
     figureSrc:
       "https://i.pinimg.com/564x/5d/96/ad/5d96ad72a3cb1e169185d9001be37aff.jpg",
     day: 1,
-    time: "17:00",
+    time: "18:00",
     venue: "Penman Auditorium",
     desc: "",
     type: "Event",
@@ -261,7 +261,7 @@ export const events = {
     figureSrc:
       "https://images.pexels.com/photos/1656066/pexels-photo-1656066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     day: 1,
-    time: "18:30",
+    time: "17:00",
     venue: "Penman Auditorium",
     desc: "",
     type: "Concert",
@@ -274,8 +274,8 @@ export const events = {
     figureSrc:
       "https://media.istockphoto.com/id/1553473885/photo/happy-extended-indian-family-dining-together-outdoors-in-fancy-house-garden-at-night-family.jpg?s=612x612&w=0&k=20&c=_oUDTPMo6pMHzCXFnZf7uEkTKoOb0RE5GzvldYdFH0A=",
     day: 1,
-    time: "19:30",
-    venue: "Penman quadriangle",
+    time: "19:45",
+    venue: "Penman Quadrangle",
     desc: "",
     type: "Contest",
     highlight: false,
@@ -290,8 +290,8 @@ export const events = {
     figureSrc:
       "https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     day: 1,
-    time: "20:00",
-    venue: "Amber ground",
+    time: "20:30",
+    venue: "Gymkhana ground",
     desc: "",
     type: "Contest",
     highlight: true,

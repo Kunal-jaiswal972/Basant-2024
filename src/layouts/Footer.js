@@ -25,7 +25,7 @@ const Footer = () => {
           >
             <div className={styles.quotes}>
               Reviving memories, forging connections - Celebrating the spirit of
-              our alma mater at basant
+              our alma mater at Basant
             </div>
             <div className={styles.footerItems}>
               <div>
