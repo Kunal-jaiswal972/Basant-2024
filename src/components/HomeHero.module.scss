@@ -1,7 +1,7 @@
 @mixin button-styles {
   cursor: pointer;
   height: 2.5rem;
-  width: 40%;
+  width: 100%;
   padding: 1.2rem 2rem;
   display: inline-flex;
   align-items: center;
@@ -38,6 +38,10 @@ img {
   @include image-styles;
 }
 
+p{
+  color: #555;
+}
+
 .registerBtn {
   @include button-styles;
 
@@ -52,7 +56,6 @@ img {
 
   @media (max-width: 780px) {
     display: inline-flex;
-    width: 90%;
   }
 }
 
@@ -120,9 +123,9 @@ img {
       flex: 0 0 60%;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: space-evenly;
       flex-direction: column;
-      gap: 2rem;
+      // gap: 2rem;
     }
 
     .imageContainer {
