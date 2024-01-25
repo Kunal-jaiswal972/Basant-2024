@@ -173,7 +173,7 @@ const Home = ({ user }) => {
                 marginLeft: "15px",
               }}
             >
-              PROFESSORS
+              ORGANIZING COMMITTEE
             </h2>
           </div>
           <Carousel cardsList={professors} />
@@ -188,7 +188,7 @@ const Home = ({ user }) => {
                 marginLeft: "15px",
               }}
             >
-              COORDINATORS
+              STUDENT TEAM
             </h2>
           </div>
           <Carousel cardsList={mainCoordinators} />
@@ -203,7 +203,7 @@ const Home = ({ user }) => {
                 marginLeft: "15px",
               }}
             >
-              MADE BY
+              WEBSITE MAKERS
             </h2>
           </div>
           <Carousel cardsList={organizsers} />
