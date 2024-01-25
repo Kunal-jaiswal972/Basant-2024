@@ -99,19 +99,19 @@ export const organizsers = [
   {
     name: "Kunal Jaiswal",
     imgSrc: "/media/organizsers/kunal.jpg",
-    roles: ["Organizser"],
+    roles: ["Organizer"],
     department: "Mechanical Engineering",
   },
   {
     name: "Ankur Gautam",
     imgSrc: "/media/organizsers/ankur.jpg",
-    roles: ["Organizser"],
+    roles: ["Organizer"],
     department: "Computer Science and Engineering",
   },
   {
     name: "Archisman Roy",
     imgSrc: "/media/organizsers/archi.jpg",
-    roles: ["Organizser"],
+    roles: ["Organizer"],
     department: "Computer Science and Engineering",
   },
 ];
