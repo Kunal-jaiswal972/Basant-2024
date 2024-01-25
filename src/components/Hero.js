@@ -67,7 +67,7 @@ const Hero = () => {
         loop={true}
       >
         <source
-          src="https://firebasestorage.googleapis.com/v0/b/basant-2024.appspot.com/o/frag2%20(1)%20(1).mp4?alt=media&token=5fcd4541-9d34-4205-9328-ab4693ccf08f"
+          src="./media/basant-2024/Homevideo.mp4"
           type="video/mp4"
         />
         {/* <source src={HeroVideo} /> */}

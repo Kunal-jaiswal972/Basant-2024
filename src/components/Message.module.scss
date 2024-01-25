@@ -81,3 +81,9 @@
 .reverse {
   flex-direction: row-reverse;
 }
+
+.message{
+  @media screen and (max-width: 780px) {
+    flex-direction: column !important;
+  }
+}

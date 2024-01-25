@@ -1,13 +1,23 @@
-// import dj from "../media/basant-2024/dj.jpeg";
-
 export const eventStartDate = "Feb 3, 2024 10:00:00";
 
 export const mainCoordinators = [
   {
+    name: "Kanishka Ranjan",
+    imgSrc: "/media/coordinators/Kanishk.jpg",
+    roles: ["Coordinator"],
+    department: "Mining Machinery Engineering",
+  },
+  {
+    name: "Devesh Singh",
+    imgSrc: "/media/coordinators/devesh.jpg",
+    roles: ["Co-coordinator"],
+    department: "Petroleum Engineering",
+  },
+  {
     name: "Abhishek Tiwari",
     imgSrc: "/media/coordinators/Abhishek.jpg",
     roles: ["Security Head"],
-    department: "(Computer Science and Engineering)",
+    department: "Computer Science and Engineering",
   },
   {
     name: "Jeet Balode",
@@ -63,36 +73,36 @@ export const mainCoordinators = [
     roles: ["Technical Team Head"],
     department: "Mathematics and Computing",
   },
-  {
-    name: "Tripti Kundu",
-    imgSrc: "/media/coordinators/Tripti.jpg",
-    roles: ["Cultural Team"],
-    department: "Chemistry and Chemical Biology",
-  },
-  {
-    name: "Ankit Joshi",
-    imgSrc: "/media/coordinators/Ankit.jpeg",
-    roles: ["Cultural Team"],
-    department: "Chemistry and Chemical Biology",
-  },
-  {
-    name: "SHARIQ FARHAN ELAHI",
-    imgSrc: "/media/coordinators/Shariq.jpg",
-    roles: ["Cultural Team"],
-    department: "Chemical Engineering",
-  },
-  {
-    name: "Aakash Rajpoot",
-    imgSrc: "/media/coordinators/aakash.jpg",
-    roles: ["Cultural Team"],
-    department: "Chemical Engineering",
-  },
-  {
-    name: "Dr. Ajay",
-    imgSrc: "/media/coordinators/ajay.jpg",
-    roles: ["Cultural Team"],
-    department: "Chemical Engineering",
-  },
+  // {
+  //   name: "Tripti Kundu",
+  //   imgSrc: "/media/coordinators/Tripti.jpg",
+  //   roles: ["Cultural Team"],
+  //   department: "Chemistry and Chemical Biology",
+  // },
+  // {
+  //   name: "Ankit Joshi",
+  //   imgSrc: "/media/coordinators/Ankit.jpeg",
+  //   roles: ["Cultural Team"],
+  //   department: "Chemistry and Chemical Biology",
+  // },
+  // {
+  //   name: "SHARIQ FARHAN ELAHI",
+  //   imgSrc: "/media/coordinators/Shariq.jpg",
+  //   roles: ["Cultural Team"],
+  //   department: "Chemical Engineering",
+  // },
+  // {
+  //   name: "Aakash Rajpoot",
+  //   imgSrc: "/media/coordinators/aakash.jpg",
+  //   roles: ["Cultural Team"],
+  //   department: "Chemical Engineering",
+  // },
+  // {
+  //   name: "Dr. Ajay",
+  //   imgSrc: "/media/coordinators/ajay.jpg",
+  //   roles: ["Cultural Team"],
+  //   department: "Chemical Engineering",
+  // },
 ];
 
 export const organizsers = [
@@ -121,51 +131,91 @@ export const professors = [
     name: "Prof. Prem Vrat",
     imgSrc: "/media/professors/prem.jpeg",
     roles: ["Cheif Patron", "Chairman"],
+    department: "Chairman Board of Governors, IIT (ISM)",
   },
   {
     name: "Prof. J.K. Pattanayak",
     imgSrc: "/media/professors/patnayak.jpg",
     roles: ["Patron", "Director IIT(ISM) Dhanbad"],
+    department: "Department of Management Studies and Industrial Engineering",
   },
   {
     name: "Prof. Biswajit Paul",
     imgSrc: "/media/professors/Biswajit.jpeg",
     roles: ["Vice-President"],
+    department: "Department of Environmental Science and Engineering",
   },
   {
     name: "Prof. S. Sarangi",
     imgSrc: "/media/professors/Sarangi.jpeg",
     roles: ["Convener"],
+    department: "Department of Applied Geology",
   },
   {
     name: "Prof. Vinay Kumar Rajak",
     imgSrc: "/media/professors/Vinay.jpeg",
     roles: ["Co-Convner"],
+    department: "Department of Petroleum Engineering",
   },
   {
     name: "Prof. Manish Kumar Jain",
     imgSrc: "/media/professors/Manish.jpg",
     roles: ["Convener"],
+    department: "Department of Environmental Science and Engineering",
   },
   {
     name: "Prof. Ravi Kumar Gangwar",
     imgSrc: "/media/professors/Ravi.png",
     roles: ["Co-Convner"],
+    department: "Department of Electronics Engineering",
   },
   {
     name: "Prof. VGK Villuri",
     imgSrc: "/media/professors/Villuri.jpeg",
     roles: ["Treasurer"],
+    department: "Department of Mining Engineering",
   },
 ];
 
 export const highlights = ["1", "2", "8", "11", "14", "16"];
 
-export const convenorMessage =
-  "Industry 4.0 has emerged as a transformative force, integrating cutting-edge technologies to revolutionize the way industries operate. At the heart of this paradigm shift lies the optimize resource utilization, minimize waste, and reduce environmental impact, thus pursuit of sustainable development. By leveraging smart technologies, industries can contributing to the broader goal of sustainable development. Advanced manufacturing processes, real-time data analytics empower industries to make informed decisions, leading to reduced environmental footprints and increased overall sustainability. This not only reduces reliance on conventional energy sources but also facilitates the transition towards a more sustainable energy ecosystem. Collaboration between academia, industries, and research institutions becomes important to identify novel solutions and address emerging challenges. Keeping this in mind IIT(ISM) Dhanbad is organizing the Industry-Institute Interaction (III) on 3 February 2024, with the theme of Industry 4.0- Innovations and Research for Sustainable Development. The interaction program will provide an opportunity to the delegates from the invited corporates, academicians, distinguished Alumni, Entrepreneurs, faculties and students of IIT(ISM) dhanbad to interact with each other, share their thoughts & ideas and learn, through keynote sessions and engaging panel discussions. The innovations and research endeavors in this realm not only drive economic growth but also contribute significantly to environmental and social well-being. The Industry-Institute Interaction program will play a pivotal role in fostering collaboration and driving us towards a harmonious balance between technological progress and sustainable development. We are confident that III-2024 will surely provide the best platform to bring together the faculties and students of IIT(ISM) with industry professionals. It will not only facilitate the identification of crucial challenges faced by the industry but also plays a vital role in outlining focused research agenda to address these issues collaboratively. On behalf of the Organizing Committee, we extend a warm welcome to all delegates, esteemed special guests, and specially invited attendees to the Industry-Institute Interaction (III)-2024.";
+export const BasantMessageData = [
+  {
+    name: "Prof Sushanta Sarangi",
+    role: "Convener, Basant'24",
+    department: "Department of Applied Geology",
+    img: "/media/basant-2024/convenor.jpg",
+    message:
+      "Industry 4.0 has emerged as a transformative force, integrating cutting-edge technologies to revolutionize the way industries operate. At the heart of this paradigm shift lies the optimize resource utilization, minimize waste, and reduce environmental impact, thus pursuit of sustainable development. By leveraging smart technologies, industries can contributing to the broader goal of sustainable development. Advanced manufacturing processes, real-time data analytics empower industries to make informed decisions, leading to reduced environmental footprints and increased overall sustainability. This not only reduces reliance on conventional energy sources but also facilitates the transition towards a more sustainable energy ecosystem. Collaboration between academia, industries, and research institutions becomes important to identify novel solutions and address emerging challenges. Keeping this in mind IIT(ISM) Dhanbad is organizing the Industry-Institute Interaction (III) on 3 February 2024, with the theme of Industry 4.0- Innovations and Research for Sustainable Development. The interaction program will provide an opportunity to the delegates from the invited corporates, academicians, distinguished Alumni, Entrepreneurs, faculties and students of IIT(ISM) dhanbad to interact with each other, share their thoughts & ideas and learn, through keynote sessions and engaging panel discussions. The innovations and research endeavors in this realm not only drive economic growth but also contribute significantly to environmental and social well-being. The Industry-Institute Interaction program will play a pivotal role in fostering collaboration and driving us towards a harmonious balance between technological progress and sustainable development. We are confident that III-2024 will surely provide the best platform to bring together the faculties and students of IIT(ISM) with industry professionals. It will not only facilitate the identification of crucial challenges faced by the industry but also plays a vital role in outlining focused research agenda to address these issues collaboratively. On behalf of the Organizing Committee, we extend a warm welcome to all delegates, esteemed special guests, and specially invited attendees to the Industry-Institute Interaction (III)-2024.",
+  },
+  {
+    name: "Prof Vinay Kumar Rajak",
+    role: "Co-Convener, Basant'24",
+    department: "Department of Petroleum Engineering",
+    img: "/media/basant-2024/co-convenor.jpg",
+    message:
+      "In our fast-paced world, the pursuit of sustainable development has become more imperative than ever. Innovations in renewable energy technologies have become crucial in reducing our dependence on fossil fuels and mitigating climate change. Advancements in solar, wind, and hydroelectric power, coupled with breakthroughs in energy storage, promise a transition to a more sustainable and resilient energy infrastructure. The path to sustainable development is intricately linked with innovations and research. By harnessing cutting-edge technologies we can build a future that is environmentally resilient, and socially equitable. We recognize the vital role that innovations and research play in leading our practices toward a more sustainable and responsible future, hence IIT(ISM) Dhanbad is organizing the Industry-Institute Interaction (III) on 3 February 2024, with the theme of Industry 4.0- Innovations and Research for Sustainable Development. The interaction program aims to bring together industry leaders, researchers, technical experts, executives, academicians, and students to delve into the latest advancements and insights that contribute to sustainable development. We believe that by fostering collaboration and knowledge-sharing, we can collectively address the challenges and opportunities associated with sustainable practices. The central objective of the industry-institute interaction program is to foster exchange of ideas between academia and the industry. During these sessions, participants collaboratively contribute their knowledge and experiences, offering diverse perspectives on the sustainable development and utilization of energy resources. The overarching goal is to collectively move towards a world with reduced carbon footprints, placing greater reliance on renewable sources of energy. We are optimistic that III-2024 will surely provide the best platform that will facilitate industries in adopting modern technologies and techniques, thereby expanding their business prospects. Simultaneously, students gain insights into industry expectations, guiding them in aligning their skills with industry requirements. On behalf of the Organizing Committee, we extend a warm welcome to all delegates, esteemed special guests, and specially invited attendees to the Industry-Institute Interaction (III)-2024.",
+  },
+];
 
-export const coConvenorMessage =
-  "In our fast-paced world, the pursuit of sustainable development has become more imperative than ever. Innovations in renewable energy technologies have become crucial in reducing our dependence on fossil fuels and mitigating climate change. Advancements in solar, wind, and hydroelectric power, coupled with breakthroughs in energy storage, promise a transition to a more sustainable and resilient energy infrastructure. The path to sustainable development is intricately linked with innovations and research. By harnessing cutting-edge technologies we can build a future that is environmentally resilient, and socially equitable. We recognize the vital role that innovations and research play in leading our practices toward a more sustainable and responsible future, hence IIT(ISM) Dhanbad is organizing the Industry-Institute Interaction (III) on 3 February 2024, with the theme of Industry 4.0- Innovations and Research for Sustainable Development. The interaction program aims to bring together industry leaders, researchers, technical experts, executives, academicians, and students to delve into the latest advancements and insights that contribute to sustainable development. We believe that by fostering collaboration and knowledge-sharing, we can collectively address the challenges and opportunities associated with sustainable practices. The central objective of the industry-institute interaction program is to foster exchange of ideas between academia and the industry. During these sessions, participants collaboratively contribute their knowledge and experiences, offering diverse perspectives on the sustainable development and utilization of energy resources. The overarching goal is to collectively move towards a world with reduced carbon footprints, placing greater reliance on renewable sources of energy. We are optimistic that III-2024 will surely provide the best platform that will facilitate industries in adopting modern technologies and techniques, thereby expanding their business prospects. Simultaneously, students gain insights into industry expectations, guiding them in aligning their skills with industry requirements. On behalf of the Organizing Committee, we extend a warm welcome to all delegates, esteemed special guests, and specially invited attendees to the Industry-Institute Interaction (III)-2024.";
+export const IiiMessageData = [
+  {
+    name: "Prof Manish Kumar Jain",
+    role: "Convener, III'24",
+    department: "Department of Environmental Science and Engineering",
+    img: "/media/basant-2024/convenorIII.jpg",
+    message:
+      'It is with great pleasure that we extend a warm invitation to you for the Industry-Institute Interaction (III)-2024, organized by the Indian Institute of Technology (Indian School of Mines), Dhanbad. This event, scheduled for February 03, 2024, holds the theme "Innovations and Research for Sustainable Development."The Industry Institute Interaction - 2024 (III - 2024) serves as a unique platform uniting academic and industrial communities, fostering collaboration and knowledge exchange. Our main objective is to facilitate discussions on Industry 4.0, exploring innovations and research that contribute to sustainable development. This event aims to provide a dynamic interface to address emerging trends and challenges in these fields, offering insights into their diverse applications in our daily lives and industries. As the Convenor of III-2024, I am thrilled about the prospect of bringing together experts, scholars, and professionals to engage in meaningful dialogue. The technical program is designed to showcase the latest advancements and solutions in Industry 4.0. We are honored to feature keynote addresses and invited talks from eminent scientists, distinguished faculties, and industry experts who will share their valuable perspectives and experiences.In the pursuit of knowledge and progress, the Industry-Institute Interaction - 2024 promises to be a collaborative and enriching experience. We encourage your active participation and engagement in discussions that will shape the future of innovation and research for sustainable development.We are confident that III-2024 will foster new connections, inspire innovative thinking, and contribute to the growth of both academia and industry.',
+  },
+  {
+    name: "Prof Ravi Kumar Gangwar",
+    role: "Co-Convener, III'24",
+    department: "Department of Electronics Engineering",
+    img: "/media/basant-2024/co-convenorIII.png",
+    message:
+      'I am delighted to invite you to the Industry-Institute Interaction (III)-2024, hosted by the Indian Institute of Technology (Indian School of Mines), Dhanbad. Taking place on February 03, 2024, III-2024 revolves around the theme "Innovations and Research for Sustainable Development."The primary goal of this event is to establish a collaborative platform for academia and industry to converge, fostering the exchange of knowledge. III-2024 focuses on Industry 4.0, exploring innovations and research that contribute to sustainable development. Our technical program is designed to provide a comprehensive overview of new trends and challenges in these fields, offering insights into their varied applications in our daily lives and industries.Serving as the Co-Convenor of III-2024, I am excited about the potential for meaningful interactions and the generation of novel ideas. The event will feature keynote addresses and invited talks from distinguished scientists, faculties, and industry experts, providing a unique opportunity to learn from their experiences and perspectives.Your participation is crucial to the success of this endeavor, and we are confident that your insights will enrich the discussions and contribute to the advancement of knowledge. III-2024 promises to be a platform for networking, collaboration, and the exchange of cutting-edge ideas that will shape the future of sustainable development.We look forward to your active involvement and presence at III-2024, where we anticipate productive discussions and the forging of lasting connections.',
+  },
+];
 
 export const events = {
   0: {
@@ -386,7 +436,7 @@ export const BasantEvents = [
   },
 ];
 
-export const firstDayImages = [
+export const secondDayImages = [
   {
     url: "media/day1/DSC_7373.JPG",
     // caption: 'Slide 1'
@@ -425,7 +475,7 @@ export const firstDayImages = [
   },
 ];
 
-export const secondDayImages = [
+export const firstDayImages = [
   { url: "media/day2/_DSC0007.JPG" },
   { url: "media/day2/_DSC0038.JPG" },
   { url: "media/day2/_DSC0143.JPG" },

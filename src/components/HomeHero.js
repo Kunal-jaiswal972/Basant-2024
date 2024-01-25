@@ -32,7 +32,10 @@ const HomeHero = () => {
             Basant is the official alumni reunion of IIT (ISM) Dhanbad. The
             reunion is one of the most emotional times of the institute's
             calendar as the batch that had passed out 50 years back returns to
-            the campus to reminisce about their old college memories.
+            the campus to reminisce about their old college memories. The event
+            not only celebrates the enduring bonds formed during their academic
+            journey but also serves as a platform for the alumni to contribute
+            their wisdom and experiences to the current generation of students.
           </p>
         </div>
         <div className={styles.imageContainer}>
@@ -46,20 +49,26 @@ const HomeHero = () => {
       <div className={styles.iiiContainer}>
         <div className={styles.textContainer}>
           <p className={styles.homeHeroDesc}>
-            Industry Institute Interaction - 2024 (III - 2024) aims to create a
-            common platform that brings together the academic and industrial
-            communities to share and update their knowledge in the areas of
-            Industry 4.0.
+            The main objective of the Industry Institute Interaction - 2024 (III
+            - 2024) is to create a common platform that brings together the
+            academic and industrial communities to share and update their
+            knowledge in the areas of Industry 4.0: Innovations and Research for
+            Sustainable Development. Through its technical program, it aims to
+            provide an outstanding interface to address new trends and
+            challenges in these fields and their various applications in our
+            daily life and industries. It will include keynote addresses and
+            invited talks from eminent scientists, distinguished faculties, and
+            industry experts.
           </p>
-          <button className={styles.registerBtn}>Register</button>
+          {/* <button className={styles.registerBtn}>Register</button> */}
         </div>
         <div className={styles.imageContainer}>
           <img
             className={styles.homeHeroimg}
-            src="./media/III_logo.jpg"
+            src="./media/III_logo.png"
             alt="III Logo"
           />
-          <button className={styles.registerBtn2}>Register</button>
+          {/* <button className={styles.registerBtn2}>Register</button> */}
         </div>
       </div>
     </article>
