@@ -67,7 +67,7 @@ const Hero = () => {
         loop={true}
       >
         <source
-          src="./media/basant-2024/Homevideo.mp4"
+          src="./media/Homevideo.mp4"
           type="video/mp4"
         />
         {/* <source src={HeroVideo} /> */}

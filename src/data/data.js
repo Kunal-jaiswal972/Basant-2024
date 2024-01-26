@@ -14,6 +14,12 @@ export const mainCoordinators = [
     department: "Petroleum Engineering",
   },
   {
+    name: "Aashish Ranjan Singh",
+    imgSrc: "/media/coordinators/Aashish.jpeg",
+    roles: ["Technical Head"],
+    department: "Mathematics and Computing",
+  },
+  {
     name: "Abhishek Tiwari",
     imgSrc: "/media/coordinators/Abhishek.jpg",
     roles: ["Security Head"],
@@ -26,17 +32,12 @@ export const mainCoordinators = [
     department: "Civil Engineering",
   },
   {
-    name: "Rohit Kumar Mondal ",
+    name: "Rohit Kumar Mondal",
     imgSrc: "/media/coordinators/Rohit.jpg",
     roles: ["Promotion & Marketing Head"],
     department: "Mining Engineering",
   },
-  {
-    name: "Aashish Ranjan Singh",
-    imgSrc: "/media/coordinators/Aashish.jpeg",
-    roles: ["Technical Head"],
-    department: "Mathematics and Computing",
-  },
+
   {
     name: "Shivankar Mehta",
     imgSrc: "/media/coordinators/Shivankar.jpg",
