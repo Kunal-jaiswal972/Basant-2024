@@ -66,7 +66,7 @@ export const mainCoordinators = [
     name: "Kaveri Patel",
     imgSrc: "/media/coordinators/Kaveri.jpeg",
     roles: ["Content and Design Team"],
-    department: "Petroleum Engineering",
+    department: "Electrical Engineering",
   },
   {
     name: "Shubhranshu Animesh",
@@ -127,6 +127,12 @@ export const mainCoordinators = [
     imgSrc: "/media/coordinators/Harshal.jpeg",
     roles: ["Operations and Logistics Team"],
     department: "Electronics and Communication Engineering",
+  },
+  {
+    name: "Priyanshu Raj",
+    imgSrc: "/media/coordinators/Priyanshu Raj.jpg",
+    roles: ["Operations and Logistics Team"],
+    department: "Petroleum Engineering",
   },
   // {
   //   name: "Tripti Kundu",
