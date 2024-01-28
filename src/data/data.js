@@ -180,7 +180,7 @@ export const organizsers = [
     department: "Computer Science and Engineering",
   },
   {
-    name: "Kaushal Kumar Shrivastava",
+    name: "Kaushal Kumar Srivastava",
     imgSrc: "/media/organizsers/Kaushal.jpg",
     roles: ["Organizer"],
     department: "Mechanical Engineering",
