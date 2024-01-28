@@ -66,7 +66,7 @@ export const mainCoordinators = [
     name: "Kaveri Patel",
     imgSrc: "/media/coordinators/Kaveri.webp",
     roles: ["Content and Design Team"],
-    department: "Petroleum Engineering",
+    department: "Electrical Engineering",
   },
   {
     name: "Shubhranshu Animesh",
