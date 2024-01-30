@@ -9,38 +9,35 @@
   margin-bottom: 50px;
 }
 
-/* Sponsors.module.scss */
-
-.gold, .silver, .bronze {
+.subHeading {
   text-align: center;
-  margin-bottom: 20px;
+  font-weight: 500;
+  // font-size: max(4vw, 35px);
+  margin-block: 1rem;
+  font-size: 3rem;
+  text-wrap: nowrap;
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
 
-  img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px; /* Add border-radius for rounded corners if desired */
-  }
+.container {
+  max-width: 100%;
+  margin: auto;
+  margin-block: 2em;
+  padding-inline: 2em;
 
-  h3 {
-    margin-bottom: 10px;
+  .imgContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
   }
 }
 
-// /* Responsive Styles */
-// @media only screen and (max-width: 600px) {
-//   .gold, .silver, .bronze {
-//     // Styles for small screens
-//   }
-// }
-
-// @media only screen and (min-width: 601px) and (max-width: 1200px) {
-//   .gold, .silver, .bronze {
-//     // Styles for medium screens
-//   }
-// }
-
-// @media only screen and (min-width: 1201px) {
-//   .gold, .silver, .bronze {
-//     // Styles for large screens
-//   }
-// }
+.sponsorImg {
+  width: 240px;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}

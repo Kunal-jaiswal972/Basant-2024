@@ -1,50 +1,98 @@
 import ComingSoon from "../components/ComingSoon";
-import styles from "../styles/Home.module.scss";
-import stylesB from "../styles/Sponsors.module.scss"
-import { goldSponsorImage, silverSponsorImage, bronzeSponsorImage } from "../data/data";
-// Import images with correct paths
-
-
+import styles from "../styles/Sponsors.module.scss";
+import stylesB from "../styles/Home.module.scss";
 import cx from "classnames";
 
 const Events = () => {
-  
   return (
-    <div>
-      <div>
-        <header
-          className={cx("page-header", styles["page-header"])}
-          style={{ alignItems: "center", justifyContent: "center" }}
-        >
-          <h1 className={stylesB.heading}  >
-            <span>Sponsors</span>
-          </h1>
-        </header>
+    <section>
+      <header
+        className={cx("page-header", stylesB["page-header"])}
+        style={{ alignItems: "center", justifyContent: "center" }}
+      >
+        <h1 className={styles.heading}>
+          <span>Sponsors</span>
+        </h1>
+      </header>
+
+      <div className={styles.container}>
+        <h3 className={styles.subHeading}>
+          <span>Gold Sponsors</span>
+        </h3>
+
+        <div className={styles.imgContainer}>
+          <img
+            style={{ width: "600px" }}
+            src="./media/sponsers/coalindia.png"
+            alt="Gold Sponsor"
+            className={styles.sponsorImg}
+          />
+        </div>
       </div>
 
-      <div className="gold">
-      <h3 className={stylesB.subHeading}>
-        <span>Gold Sponsors</span>
-      </h3>
-      <img src={goldSponsorImage} alt="Gold Sponsor" className={stylesB.sponsorImage} />
-    </div>
+      <div className={styles.container}>
+        <h3 className={styles.subHeading}>
+          <span>Silver Sponsors</span>
+        </h3>
 
-    <div className="silver">
-      <h3 className={stylesB.subHeading}>
-        <span>Silver Sponsors</span>
-      </h3>
-      <img src={silverSponsorImage} alt="Silver Sponsor" className={stylesB.sponsorImage} />
-    </div>
+        <div className={styles.imgContainer}>
+          <img
+            src="./media/sponsers/adani.png"
+            alt="Silver Sponsor"
+            className={styles.sponsorImg}
+          />
+          <img
+            src="./media/sponsers/bccl.png"
+            alt="Silver Sponsor"
+            className={styles.sponsorImg}
+          />
+        </div>
+      </div>
 
-    <div className="bronze">
-      <h3 className={stylesB.subHeading}>
-        <span>Bronze Sponsors</span>
-      </h3>
-      <img src={bronzeSponsorImage} alt="Bronze Sponsor" className={stylesB.sponsorImage} />
-    </div>
-    </div>
+      <div className={styles.container}>
+        <h3 className={styles.subHeading}>
+          <span>Bronze Sponsors</span>
+        </h3>
+
+        <div className={styles.imgContainer}>
+          <img
+            src="./media/sponsers/tata.png"
+            alt="Bronze Sponsor"
+            className={styles.sponsorImg}
+          />
+          <img
+            src="./media/sponsers/secl.png"
+            alt="Bronze Sponsor"
+            className={styles.sponsorImg}
+          />
+          <img
+            src="./media/sponsers/essar.png"
+            alt="Bronze Sponsor"
+            className={styles.sponsorImg}
+          />
+        </div>
+      </div>
+
+      <div className={styles.container}>
+        <h3 className={styles.subHeading}>
+          <span>Advertisers</span>
+        </h3>
+
+        <div className={styles.imgContainer}>
+          <img
+            src="./media/sponsers/sail.png"
+            alt="Advertisers"
+            className={styles.sponsorImg}
+          />
+          <img
+            src="./media/sponsers/ongc.png"
+            alt="Advertisers"
+            className={styles.sponsorImg}
+          />
+        </div>
+      </div>
+    </section>
   );
 };
-
 
 export default Events;

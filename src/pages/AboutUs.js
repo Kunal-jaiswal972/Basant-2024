@@ -20,7 +20,7 @@ const AboutUs = () => {
       </h3>
       {IiiMessageData.map(
         ({ department, img, message, name, role }, idx) => (
-          <section className={stylesB.container} id="convenor">
+          <section className={stylesB.container} id="convenor" key={idx}>
             <h3 className={stylesB.title}>
               <span>{idx === 0 ? "Convenor" : "Co-Convenor"}'s Message</span>
             </h3>
@@ -47,7 +47,7 @@ const AboutUs = () => {
       </h3>
       {BasantMessageData.map(
         ({ department, img, message, name, role }, idx) => (
-          <section className={stylesB.container} id="convenor">
+          <section className={stylesB.container} id="convenor" key={idx}>
             <h3 className={stylesB.title}>
               <span>{idx === 0 ? "Convenor" : "Co-Convenor"}'s Message</span>
             </h3>

@@ -1,8 +1,8 @@
-import goldSponsorImage from "../media/sponsers/goldSponser.png";
-import silverSponsorImage from "../media/sponsers/silverSponser.png";
-import bronzeSponsorImage from "../media/sponsers/bronzeSponser.svg";
+// import goldSponsorImage from "./media/sponsers/goldSponser.png";
+// import silverSponsorImage from "./media/sponsers/silverSponser.png";
+// import bronzeSponsorImage from "./media/sponsers/bronzeSponser.svg";
 
-export { goldSponsorImage, silverSponsorImage, bronzeSponsorImage };
+// export { goldSponsorImage, silverSponsorImage, bronzeSponsorImage };
 
 
 
