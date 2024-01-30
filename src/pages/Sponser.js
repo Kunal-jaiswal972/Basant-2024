@@ -22,7 +22,6 @@ const Events = () => {
 
         <div className={styles.imgContainer}>
           <img
-            style={{ width: "600px" }}
             src="./media/sponsers/coalindia.png"
             alt="Gold Sponsor"
             className={styles.sponsorImg}
