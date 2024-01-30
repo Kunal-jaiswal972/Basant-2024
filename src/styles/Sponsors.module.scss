@@ -8,3 +8,39 @@
   transform: translateX(-0.15ch);
   margin-bottom: 50px;
 }
+
+/* Sponsors.module.scss */
+
+.gold, .silver, .bronze {
+  text-align: center;
+  margin-bottom: 20px;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Add border-radius for rounded corners if desired */
+  }
+
+  h3 {
+    margin-bottom: 10px;
+  }
+}
+
+// /* Responsive Styles */
+// @media only screen and (max-width: 600px) {
+//   .gold, .silver, .bronze {
+//     // Styles for small screens
+//   }
+// }
+
+// @media only screen and (min-width: 601px) and (max-width: 1200px) {
+//   .gold, .silver, .bronze {
+//     // Styles for medium screens
+//   }
+// }
+
+// @media only screen and (min-width: 1201px) {
+//   .gold, .silver, .bronze {
+//     // Styles for large screens
+//   }
+// }

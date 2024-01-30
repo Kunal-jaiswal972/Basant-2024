@@ -1,3 +1,11 @@
+import goldSponsorImage from "../media/sponsers/goldSponser.png";
+import silverSponsorImage from "../media/sponsers/silverSponser.png";
+import bronzeSponsorImage from "../media/sponsers/bronzeSponser.svg";
+
+export { goldSponsorImage, silverSponsorImage, bronzeSponsorImage };
+
+
+
 export const eventStartDate = "Feb 3, 2024 10:00:00";
 
 export const mainCoordinators = [
@@ -555,3 +563,4 @@ export const firstDayImages = [
   { url: "media/day2/_DSC0292.jpg" },
   { url: "media/day2/_DSC9949.JPG" },
 ];
+

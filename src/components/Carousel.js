@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import styles from './Carousel.module.scss';
 import { ReactComponent as PointerIcon } from '../media/icons/right.svg';
 import { ReactComponent as NarrowArrowIcon } from '../media/icons/narrow-arrow.svg';
@@ -38,6 +38,7 @@ const Carousel = ({ cardsList = [] }) => {
   const cursorRef = useRef(null);
   const parentRef = useRef(null);
   const cardsWrapperRef = useRef(null);
+  const [touchStartX, setTouchStartX] = useState(0);
 
   const handleCursorTransit = (type) => {
     if (type === 'enter') {
@@ -59,15 +60,22 @@ const Carousel = ({ cardsList = [] }) => {
     }
   }
 
-  const slideCarousel = (e) => {
-    e.preventDefault();
-    const bounds = parentRef.current.getBoundingClientRect();
-    let transitDir = 'prev'
-    if (e.clientX - bounds.left < bounds.width / 2) {
-      transitDir = 'prev';
-    } else {
-      transitDir = 'next';
+  const handleTouchStart = (e) => {
+    setTouchStartX(e.touches[0].clientX);
+  }
+
+  const handleTouchMove = (e) => {
+    const touchEndX = e.touches[0].clientX;
+    const touchDeltaX = touchEndX - touchStartX;
+
+    if (Math.abs(touchDeltaX) > 50) {
+      // Adjust the threshold as needed
+      slideCarousel(touchDeltaX > 0 ? 'prev' : 'next');
+      setTouchStartX(touchEndX);
     }
+  }
+
+  const slideCarousel = (transitDir) => {
     const cardsContainer = cardsWrapperRef.current;
     cardsContainer.classList.add(styles['-sliding']);
     cardsContainer.classList.add(transitDir === 'next'
@@ -93,6 +101,8 @@ const Carousel = ({ cardsList = [] }) => {
       onMouseEnter={e => handleCursorTransit('enter')}
       onMouseLeave={e => handleCursorTransit('leave')}
       onMouseMove={e => handleCursorMove(e.clientX, e.clientY)}
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
     >
       <div className={styles['c-cards-wrapper']}
         ref={cardsWrapperRef}
