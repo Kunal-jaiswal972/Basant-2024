@@ -24,7 +24,7 @@ const Events = () => {
           <img
             src="./media/sponsers/coalindia.png"
             alt="Gold Sponsor"
-            className={styles.sponsorImg}
+            className={styles.coalImg}
           />
         </div>
       </div>
