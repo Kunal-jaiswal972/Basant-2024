@@ -70,8 +70,8 @@ const Hero = () => {
           src="https://basant-bucket.s3.ap-southeast-2.amazonaws.com/Homevideo.mp4"
           type="video/mp4"
         />
-        {/* <source src={HeroVideo} /> */}
       </video>
+      {/* <img src="./media/HomeVideo.gif" className={styles["hero-bg"]} /> */}
       <div className={styles.content}>
         <h1 className={styles.logo}>
           {/* <span className="shouldAnimate">B</span>
