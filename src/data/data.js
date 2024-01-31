@@ -10,28 +10,28 @@ export const eventStartDate = "Feb 3, 2024 10:00:00";
 
 export const mainCoordinators = [
   {
-    name: "Kanishka Ranjan",
-    imgSrc: "/media/coordinators/Kanishk.webp",
-    roles: ["Coordinator"],
-    department: "Mining Machinery Engineering",
+    name: "Yash Tarun",
+    imgSrc: "/media/coordinators/Tarun.webp",
+    roles: ["Sponsorship Team"],
+    department: "Electrical Engineering",
   },
   {
-    name: "Devesh Singh",
-    imgSrc: "/media/coordinators/devesh.webp",
-    roles: ["Co-coordinator"],
-    department: "Petroleum Engineering",
-  },
-  {
-    name: "Aashish Ranjan Singh",
-    imgSrc: "/media/coordinators/Aashish.webp",
-    roles: ["Technical Head"],
-    department: "Mathematics and Computing",
-  },
-  {
-    name: "Abhishek Tiwari",
-    imgSrc: "/media/coordinators/AbhishekT.webp",
-    roles: ["Security Head"],
+    name: "Rounak Raj",
+    imgSrc: "/media/coordinators/Rounak.webp",
+    roles: ["Public Relations Team"],
     department: "Computer Science and Engineering",
+  },
+  {
+    name: "Yash Agrawal",
+    imgSrc: "/media/coordinators/Yash.webp",
+    roles: ["Sponsorship Team"],
+    department: "Electronics and Communication Engineering",
+  },
+  {
+    name: "Kaveri Patel",
+    imgSrc: "/media/coordinators/Kaveri.webp",
+    roles: ["Content and Design Team"],
+    department: "Electrical Engineering",
   },
   {
     name: "Jeet Balode",
@@ -71,11 +71,30 @@ export const mainCoordinators = [
     department: "Petroleum Engineering",
   },
   {
-    name: "Kaveri Patel",
-    imgSrc: "/media/coordinators/Kaveri.webp",
-    roles: ["Content and Design Team"],
-    department: "Electrical Engineering",
+    name: "Kanishka Ranjan",
+    imgSrc: "/media/coordinators/Kanishk.webp",
+    roles: ["Coordinator"],
+    department: "Mining Machinery Engineering",
   },
+  {
+    name: "Devesh Singh",
+    imgSrc: "/media/coordinators/devesh.webp",
+    roles: ["Co-coordinator"],
+    department: "Petroleum Engineering",
+  },
+  {
+    name: "Aashish Ranjan Singh",
+    imgSrc: "/media/coordinators/Aashish.webp",
+    roles: ["Technical Head"],
+    department: "Mathematics and Computing",
+  },
+  {
+    name: "Abhishek Tiwari",
+    imgSrc: "/media/coordinators/AbhishekT.webp",
+    roles: ["Security Head"],
+    department: "Computer Science and Engineering",
+  },
+  
   {
     name: "Shubhranshu Animesh",
     imgSrc: "/media/coordinators/Animesh.webp",
@@ -112,30 +131,13 @@ export const mainCoordinators = [
     roles: ["Sponsorship Team"],
     department: "Applied Geophysics",
   },
-  {
-    name: "Yash Tarun",
-    imgSrc: "/media/coordinators/Tarun.webp",
-    roles: ["Sponsorship Team"],
-    department: "Electrical Engineering",
-  },
-  {
-    name: "Rounak Raj",
-    imgSrc: "/media/coordinators/Rounak.webp",
-    roles: ["Public Relations Team"],
-    department: "Computer Science and Engineering",
-  },
-  {
-    name: "Yash Agrawal",
-    imgSrc: "/media/coordinators/Yash.webp",
-    roles: ["Sponsorship Team"],
-    department: "Electronics and Communication Engineering",
-  },
-  {
-    name: "Harshal Ritwik",
-    imgSrc: "/media/coordinators/Harshal.webp",
-    roles: ["Operations and Logistics Team"],
-    department: "Electronics and Communication Engineering",
-  },
+  
+  // {
+  //   name: "Harshal Ritwik",
+  //   imgSrc: "/media/coordinators/Harshal.webp",
+  //   roles: ["Operations and Logistics Team"],
+  //   department: "Electronics and Communication Engineering",
+  // },
   {
     name: "Priyanshu Raj",
     imgSrc: "/media/coordinators/Priyanshu Raj.jpg",

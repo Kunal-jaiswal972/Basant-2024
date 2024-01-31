@@ -11,7 +11,7 @@ const Events = () => {
         style={{ alignItems: "center", justifyContent: "center" }}
       >
         <h1 className={styles.heading}>
-          <span>Sponsors</span>
+          <span>Past Sponsors</span>
         </h1>
       </header>
 
