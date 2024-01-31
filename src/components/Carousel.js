@@ -75,13 +75,13 @@ const Carousel = ({ cardsList = [] }) => {
     }
   }
 
-  const slideCarousel = (e) => {
-    e.preventDefault();
+  const slideCarousel = (transitDir) => {
+    // // e.preventDefault();
     const bounds = parentRef.current.getBoundingClientRect();
-    let transitDir = 'prev'
-    if (e.clientX - bounds.left < bounds.width / 2) {
+    // let transitDir = 'prev'
+    if (transitDir.clientX - bounds.left < bounds.width / 2) {
       transitDir = 'prev';
-    } else {
+    } else if(transitDir.clientX - bounds.left > bounds.width / 2){
       transitDir = 'next';
     }
     const cardsContainer = cardsWrapperRef.current;
