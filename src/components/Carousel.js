@@ -75,7 +75,15 @@ const Carousel = ({ cardsList = [] }) => {
     }
   }
 
-  const slideCarousel = (transitDir) => {
+  const slideCarousel = (e) => {
+    e.preventDefault();
+    const bounds = parentRef.current.getBoundingClientRect();
+    let transitDir = 'prev'
+    if (e.clientX - bounds.left < bounds.width / 2) {
+      transitDir = 'prev';
+    } else {
+      transitDir = 'next';
+    }
     const cardsContainer = cardsWrapperRef.current;
     cardsContainer.classList.add(styles['-sliding']);
     cardsContainer.classList.add(transitDir === 'next'
