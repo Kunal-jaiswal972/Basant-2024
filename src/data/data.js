@@ -141,7 +141,7 @@ export const mainCoordinators = [
   {
     name: "Priyanshu Raj",
     imgSrc: "/media/coordinators/Priyanshu Raj.webp",
-    roles: ["Operations and Logistics Team"],
+    roles: ["Content and Design Team"],
     department: "Petroleum Engineering",
   },
   // {
